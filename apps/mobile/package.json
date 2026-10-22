@@ -1,0 +1,24 @@
+{
+  "name": "@mantrix/mobile",
+  "private": true,
+  "version": "0.1.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "typecheck": "tsc --noEmit",
+    "lint": "prettier --check src",
+    "test": "echo \"No mobile test suite configured yet.\""
+  },
+  "dependencies": {
+    "expo": "^58.0.17",
+    "expo-router": "~5.0.7",
+    "firebase": "^13.1.0",
+    "react": "^19.3.1",
+    "react-native": "0.88.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0"
+  }
+}

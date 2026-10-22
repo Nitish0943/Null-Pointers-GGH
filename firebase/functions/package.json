@@ -1,0 +1,17 @@
+{
+  "name": "@mantrix/firebase-functions",
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": "22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "prettier --check src",
+    "test": "echo \"No functions test suite configured yet.\""
+  },
+  "dependencies": {
+    "firebase-admin": "^13.6.0",
+    "firebase-functions": "^7.0.0"
+  }
+}

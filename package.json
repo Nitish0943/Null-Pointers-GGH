@@ -1,0 +1,24 @@
+{
+  "name": "mantrix",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.15.1",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "dev:web": "pnpm --filter @mantrix/web dev",
+    "dev:mobile": "pnpm --filter @mantrix/mobile start",
+    "build:web": "pnpm --filter @mantrix/web build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint",
+    "format": "prettier --write --ignore-unknown .",
+    "format:check": "prettier --check --ignore-unknown .",
+    "firebase:emulators": "firebase emulators:start",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  }
+}
