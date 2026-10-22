@@ -1,8 +1,113 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    match /{document=**} {
-      allow read, write: if false;
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    function isAdmin() {
+      return signedIn()
+        && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+
+    match /users/{uid} {
+      allow create: if isOwner(uid)
+        && request.resource.data.uid == uid
+        && request.resource.data.role == 'student'
+        && request.resource.data.email == request.auth.token.email;
+      allow read: if isOwner(uid) || isAdmin();
+      allow update: if isOwner(uid)
+        && request.resource.data.uid == resource.data.uid
+        && request.resource.data.role == resource.data.role
+        && request.resource.data.email == resource.data.email
+        && request.resource.data.createdAt == resource.data.createdAt
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          'displayName',
+          'photoURL',
+          'emailVerified',
+          'onboardingCompleted',
+          'preferredLanguage',
+          'studyLevel',
+          'location',
+          'interest',
+          'updatedAt'
+        ]);
+      allow delete: if false;
+    }
+
+    match /user-data/{uid} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /progress/{uid} {
+      allow read, write: if isOwner(uid);
+    }
+
+    match /mentor-data/{uid} {
+      allow read, write: if isOwner(uid) || isAdmin();
+    }
+
+    match /mentors/{uid} {
+      allow read: if signedIn();
+      allow create, update: if isOwner(uid)
+        && get(/databases/$(database)/documents/users/$(uid)).data.role == 'mentor';
+      allow delete: if isAdmin();
+    }
+
+    match /colleges/{docId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    match /courses/{docId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    match /microcourses/{docId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    match /ai-roadmaps/{docId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    match /summits/{summitId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    match /journey-roadmaps/{roadmapId} {
+      allow read, write: if signedIn()
+        && (resource.data.ownerUid == request.auth.uid
+          || request.resource.data.ownerUid == request.auth.uid
+          || isAdmin());
+    }
+
+    match /compare-roadmaps/{roadmapId} {
+      allow read, write: if signedIn()
+        && (resource.data.ownerUid == request.auth.uid
+          || request.resource.data.ownerUid == request.auth.uid
+          || isAdmin());
+    }
+
+    match /sessions/{sessionId} {
+      allow read, update: if signedIn()
+        && (resource.data.studentUid == request.auth.uid
+          || resource.data.mentorUid == request.auth.uid
+          || isAdmin());
+      allow create: if signedIn()
+        && (request.resource.data.studentUid == request.auth.uid
+          || request.resource.data.mentorUid == request.auth.uid
+          || isAdmin());
+      allow delete: if isAdmin();
     }
   }
 }
