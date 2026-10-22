@@ -4,6 +4,13 @@
     "slug": "mantrix",
     "version": "0.1.0",
     "scheme": "mantrix",
-    "plugins": ["expo-router"]
+    "splash": {
+      "backgroundColor": "#17324D",
+      "resizeMode": "contain"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#17324D",
+      "barStyle": "light-content"
+    }
   }
 }
