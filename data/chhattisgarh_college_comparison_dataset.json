@@ -1,0 +1,3399 @@
+{
+  "dataset_name": "Chhattisgarh College Comparison Dataset",
+  "generated_on": "2026-10-23",
+  "description": "Structured comparison starter dataset for 70 institutions in Chhattisgarh. Null means a comparable value was not verified; it does not mean zero.",
+  "data_quality_notes": [
+    "Course lists are programme-family summaries, not a complete verified branch-by-branch catalogue.",
+    "Fees, average/median packages, highest package, campus area, student feedback, student counts and highest-package recipient counts require current institution-level source verification.",
+    "Tier 1/2/3 is not a universal official classification. Use a stated ranking source such as NIRF instead.",
+    "Placement counts must use the same graduating year and distinguish eligible students, offers and unique students placed."
+  ],
+  "sources": [
+    {
+      "name": "NIRF Rankings",
+      "url": "https://www.nirfindia.org/"
+    },
+    {
+      "name": "CSVTU Engineering Institute Directory",
+      "url": "https://previous.csvtu.ac.in/ew/the-institute/engineering/"
+    },
+    {
+      "name": "CSVTU Pharmacy Institute Directory",
+      "url": "https://previous.csvtu.ac.in/ew/the-institute/pharmacy/"
+    },
+    {
+      "name": "CSVTU Placement Data",
+      "url": "https://www.csvtu.ac.in/placements/"
+    },
+    {
+      "name": "National Medical Commission MBBS College List",
+      "url": "https://www.nmc.org.in/information-desk/for-students-to-study-in-india/list-of-college-teaching-mbbs/"
+    },
+    {
+      "name": "AISHE Higher Education Institution Directory",
+      "url": "https://dashboard.aishe.gov.in/"
+    }
+  ],
+  "colleges": [
+    {
+      "id": "CG001",
+      "college_name": "IIT Bhilai",
+      "city_or_district": "Bhilai / Durg",
+      "state": "Chhattisgarh",
+      "sector": "Engineering / research",
+      "management_type": "Central Government",
+      "official_website": "https://www.iitbhilai.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; M.Tech; M.Sc.; Ph.D.",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG002",
+      "college_name": "NIT Raipur",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering / architecture / science",
+      "management_type": "Central Government",
+      "official_website": "https://www.nitrr.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; B.Arch; M.Tech; M.Sc.; MCA; Ph.D.",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG003",
+      "college_name": "IIIT Naya Raipur",
+      "city_or_district": "Atal Nagar",
+      "state": "Chhattisgarh",
+      "sector": "IT / engineering",
+      "management_type": "Public / government-supported",
+      "official_website": "https://www.iiitnr.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; M.Tech; Ph.D. / research (verify current catalogue)",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG004",
+      "college_name": "Government Engineering College, Raipur",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Government",
+      "official_website": "https://www.gecraipur.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG005",
+      "college_name": "Bhilai Institute of Technology, Durg",
+      "city_or_district": "Durg",
+      "state": "Chhattisgarh",
+      "sector": "Engineering / management",
+      "management_type": "Private / trust-managed",
+      "official_website": "https://www.bitdurg.org/",
+      "courses": {
+        "programme_summary": "B.Tech; MBA; postgraduate engineering programmes",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG006",
+      "college_name": "Rungta College of Engineering & Technology",
+      "city_or_district": "Bhilai / Durg",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private",
+      "official_website": "https://www.rungta.org/",
+      "courses": {
+        "programme_summary": "B.Tech; postgraduate programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG007",
+      "college_name": "Shri Shankaracharya Technical Campus",
+      "city_or_district": "Bhilai / Durg",
+      "state": "Chhattisgarh",
+      "sector": "Engineering / technology",
+      "management_type": "Private",
+      "official_website": "https://www.sscet.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; postgraduate programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG008",
+      "college_name": "Government Engineering College, Bilaspur",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Government",
+      "official_website": "https://gecbsp.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG009",
+      "college_name": "Government Engineering College, Jagdalpur",
+      "city_or_district": "Jagdalpur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Government",
+      "official_website": "https://www.gecjdp.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG010",
+      "college_name": "Kirodimal Institute of Technology",
+      "city_or_district": "Raigarh",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Government / verify current status",
+      "official_website": "https://www.kitraigarh.com/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG011",
+      "college_name": "Chouksey Engineering College",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private",
+      "official_website": "https://www.cecbilaspur.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG012",
+      "college_name": "Chhatrapati Shivaji Institute of Technology",
+      "city_or_district": "Durg",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private",
+      "official_website": "https://www.csitdurg.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG013",
+      "college_name": "Christian College of Engineering & Technology",
+      "city_or_district": "Bhilai",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private",
+      "official_website": "https://www.ccetbhilai.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG014",
+      "college_name": "Raipur Institute of Technology",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering / technical",
+      "management_type": "Private",
+      "official_website": "https://www.rit.edu.in/",
+      "courses": {
+        "programme_summary": "B.Tech and related programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG015",
+      "college_name": "New Government Engineering College, Raipur",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Government",
+      "official_website": "https://www.gecraipur.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG016",
+      "college_name": "J.K. Institute of Engineering",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private",
+      "official_website": "https://www.jkie.jkedugroup.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG017",
+      "college_name": "Columbia Institute of Engineering & Technology",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private",
+      "official_website": "https://www.cietraipur.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; exact current branches to verify",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG018",
+      "college_name": "Lakhmi Chand Institute of Technology",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering / technical",
+      "management_type": "Private",
+      "official_website": "https://www.lcit.edu.in/",
+      "courses": {
+        "programme_summary": "B.Tech and other programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG019",
+      "college_name": "Shri Shankaracharya Institute of Professional Management & Technology",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering / management",
+      "management_type": "Private",
+      "official_website": "https://www.ssipmt.com/",
+      "courses": {
+        "programme_summary": "B.Tech; MBA and related programmes",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG020",
+      "college_name": "Bhilai Institute of Technology, Raipur",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private / trust-managed",
+      "official_website": "https://www.bitraipur.ac.in/",
+      "courses": {
+        "programme_summary": "B.Tech; other technical programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG021",
+      "college_name": "Yugantar Institute of Technology & Management",
+      "city_or_district": "Rajnandgaon",
+      "state": "Chhattisgarh",
+      "sector": "Engineering / management",
+      "management_type": "Private",
+      "official_website": "https://www.yitmindia.com/",
+      "courses": {
+        "programme_summary": "Engineering and management programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG022",
+      "college_name": "Krishna's Vikash Institute of Technology",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private / verify current status",
+      "official_website": "https://www.rungta.org/",
+      "courses": {
+        "programme_summary": "Engineering programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG023",
+      "college_name": "Krishna Engineering College",
+      "city_or_district": "Durg",
+      "state": "Chhattisgarh",
+      "sector": "Engineering",
+      "management_type": "Private",
+      "official_website": "https://www.kecbhilai.com/",
+      "courses": {
+        "programme_summary": "Engineering programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG024",
+      "college_name": "CIPET: Institute of Petrochemicals Technology, Raipur",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Polymer / plastics / technical",
+      "management_type": "Central Government",
+      "official_website": "https://cipet.gov.in/",
+      "courses": {
+        "programme_summary": "Plastic engineering, polymer and related technical programmes; verify current campus list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG025",
+      "college_name": "AIIMS Raipur",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Medical / health sciences",
+      "management_type": "Central Government",
+      "official_website": "https://www.aiimsraipur.edu.in/",
+      "courses": {
+        "programme_summary": "MBBS; postgraduate medical programmes; current specialties vary",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG026",
+      "college_name": "Chhattisgarh Institute of Medical Sciences",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS; postgraduate courses where approved",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG027",
+      "college_name": "Pt. Jawaharlal Nehru Memorial Medical College",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS; postgraduate medical programmes; verify current list",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG028",
+      "college_name": "Late Shri Baliram Kashyap Memorial Government Medical College",
+      "city_or_district": "Jagdalpur",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG029",
+      "college_name": "Late Shri Lakhi Ram Agrawal Memorial Government Medical College",
+      "city_or_district": "Raigarh",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG030",
+      "college_name": "Government Medical College, Ambikapur",
+      "city_or_district": "Ambikapur",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG031",
+      "college_name": "Government Medical College, Rajnandgaon",
+      "city_or_district": "Rajnandgaon",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS; verify current intake",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG032",
+      "college_name": "Government Medical College, Mahasamund",
+      "city_or_district": "Mahasamund",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS; verify current intake",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG033",
+      "college_name": "Government Medical College, Kanker",
+      "city_or_district": "Kanker",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS; verify current intake",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG034",
+      "college_name": "Raipur Institute of Medical Sciences",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Private / verify current status",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS; verify current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG035",
+      "college_name": "Abhishek Mishra Memorial Medical College & Research",
+      "city_or_district": "Durg",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Private",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS; verify current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG036",
+      "college_name": "Chandulal Chandrakar Memorial Medical College",
+      "city_or_district": "Durg",
+      "state": "Chhattisgarh",
+      "sector": "Medical",
+      "management_type": "Management / current status verify",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "MBBS; verify current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG037",
+      "college_name": "Pt. Ravishankar Shukla University",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "State University",
+      "official_website": "https://www.prsu.ac.in/",
+      "courses": {
+        "programme_summary": "UG / PG / doctoral programmes across faculties; catalogue varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG038",
+      "college_name": "Guru Ghasidas Vishwavidyalaya",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "Central University",
+      "official_website": "https://www.ggu.ac.in/",
+      "courses": {
+        "programme_summary": "UG / PG / integrated / doctoral programmes across faculties",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG039",
+      "college_name": "Atal Bihari Vajpayee Vishwavidyalaya",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "State University",
+      "official_website": "https://www.bilaspuruniversity.ac.in/",
+      "courses": {
+        "programme_summary": "UG / PG / doctoral programmes through departments and affiliated colleges",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG040",
+      "college_name": "Chhattisgarh Swami Vivekanand Technical University",
+      "city_or_district": "Bhilai / Durg",
+      "state": "Chhattisgarh",
+      "sector": "Technical university",
+      "management_type": "State University",
+      "official_website": "https://csvtu.ac.in/",
+      "courses": {
+        "programme_summary": "Engineering, technology, architecture, management, pharmacy and diploma programmes through affiliated institutes",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG041",
+      "college_name": "Indira Gandhi Krishi Vishwavidyalaya",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Agriculture",
+      "management_type": "State Agricultural University",
+      "official_website": "https://igkv.ac.in/",
+      "courses": {
+        "programme_summary": "Agriculture-related UG / PG / Ph.D. programmes; verify current catalogue",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG042",
+      "college_name": "Hidayatullah National Law University",
+      "city_or_district": "Atal Nagar",
+      "state": "Chhattisgarh",
+      "sector": "Law",
+      "management_type": "State Law University",
+      "official_website": "https://www.hnlu.ac.in/",
+      "courses": {
+        "programme_summary": "B.A. LL.B. (Hons.); LL.M.; Ph.D.; verify current offerings",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG043",
+      "college_name": "Pandit Sundarlal Sharma Open University",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Open / distance education",
+      "management_type": "State Open University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG / certificate programmes; current catalogue varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG044",
+      "college_name": "Amity University Chhattisgarh",
+      "city_or_district": "Raipur district",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "Private University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Engineering, management, law, science and other programmes; verify catalogue",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG045",
+      "college_name": "Kalinga University",
+      "city_or_district": "Naya Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "Private University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Engineering, management, law, science and other programmes; verify catalogue",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG046",
+      "college_name": "Shri Rawatpura Sarkar University",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "Private University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG programmes across faculties; verify catalogue",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG047",
+      "college_name": "ICFAI University, Raipur",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "Private University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Management, law, science and other programmes; verify catalogue",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG048",
+      "college_name": "Sant Gahira Guru Vishwavidyalaya",
+      "city_or_district": "Ambikapur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "State University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG / doctoral programmes across faculties",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG049",
+      "college_name": "Shaheed Mahendra Karma Vishwavidyalaya",
+      "city_or_district": "Jagdalpur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "State University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG programmes through departments and affiliated colleges",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG050",
+      "college_name": "MATS University",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Multidisciplinary university",
+      "management_type": "Private University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Engineering, management, law, science and other programmes; verify catalogue",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG051",
+      "college_name": "Kushabhau Thakre Patrakarita Avam Jansanchar University",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Media / journalism",
+      "management_type": "State University",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Journalism and mass communication programmes; verify catalogue",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG052",
+      "college_name": "Government Dudhadhari Bajrang Girls' PG College",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "General degree college",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG arts, science and commerce; exact programme list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG053",
+      "college_name": "Government Nagarjuna PG College of Science",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Science",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG science programmes; exact programme list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG054",
+      "college_name": "Government J. Yoganandam Chhattisgarh College",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "General degree college",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG programmes; exact programme list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG055",
+      "college_name": "Government V.Y.T. PG Autonomous College",
+      "city_or_district": "Durg",
+      "state": "Chhattisgarh",
+      "sector": "General degree college",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG programmes; exact programme list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG056",
+      "college_name": "Government Digvijay Autonomous College",
+      "city_or_district": "Rajnandgaon",
+      "state": "Chhattisgarh",
+      "sector": "General degree college",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG programmes; exact programme list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG057",
+      "college_name": "Government Bilasa Girls PG College",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "General degree college",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG programmes; exact programme list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG058",
+      "college_name": "Government E. Raghavendra Rao PG Science College",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Science",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG science programmes; exact programme list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG059",
+      "college_name": "Rajeev Gandhi Government PG College",
+      "city_or_district": "Ambikapur",
+      "state": "Chhattisgarh",
+      "sector": "General degree college",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "UG / PG programmes; exact programme list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG060",
+      "college_name": "St. Vincent Pallotti College",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "General / professional education",
+      "management_type": "Private / verify programmes",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Programmes vary; verify current approval and catalogue",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG061",
+      "college_name": "Columbia Institute of Pharmacy",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Pharmacy",
+      "management_type": "Private",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "D.Pharm / B.Pharm / M.Pharm depending on current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG062",
+      "college_name": "Rungta College of Pharmaceutical Science and Research",
+      "city_or_district": "Bhilai / Durg",
+      "state": "Chhattisgarh",
+      "sector": "Pharmacy",
+      "management_type": "Private",
+      "official_website": "https://www.rungta.org/",
+      "courses": {
+        "programme_summary": "D.Pharm / B.Pharm / M.Pharm depending on current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG063",
+      "college_name": "Royal College of Pharmacy",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Pharmacy",
+      "management_type": "Private / verify current status",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Pharmacy programmes; verify current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG064",
+      "college_name": "Apollo College of Pharmacy",
+      "city_or_district": "Anjora, Durg",
+      "state": "Chhattisgarh",
+      "sector": "Pharmacy",
+      "management_type": "Private",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Pharmacy programmes; verify current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG065",
+      "college_name": "LCIT School of Pharmacy",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Pharmacy",
+      "management_type": "Private",
+      "official_website": "https://www.lcit.edu.in/",
+      "courses": {
+        "programme_summary": "Pharmacy programmes; verify current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG066",
+      "college_name": "RITEE College of Pharmacy",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Pharmacy",
+      "management_type": "Private",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Pharmacy programmes; verify current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG067",
+      "college_name": "Shri Rawatpura Sarkar Institute of Pharmacy",
+      "city_or_district": "Raipur district",
+      "state": "Chhattisgarh",
+      "sector": "Pharmacy",
+      "management_type": "Private",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Pharmacy programmes; verify current approval",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG068",
+      "college_name": "Government Polytechnic, Bilaspur",
+      "city_or_district": "Bilaspur",
+      "state": "Chhattisgarh",
+      "sector": "Diploma / polytechnic",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Diploma programmes; branch list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG069",
+      "college_name": "Government Co-ed Polytechnic, Raipur",
+      "city_or_district": "Raipur",
+      "state": "Chhattisgarh",
+      "sector": "Diploma / polytechnic",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Diploma programmes; branch list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    },
+    {
+      "id": "CG070",
+      "college_name": "UPU Government Polytechnic, Durg",
+      "city_or_district": "Durg",
+      "state": "Chhattisgarh",
+      "sector": "Diploma / polytechnic",
+      "management_type": "Government",
+      "official_website": null,
+      "courses": {
+        "programme_summary": "Diploma programmes; branch list varies",
+        "exact_course_names_verified": false,
+        "course_count": null,
+        "course_duration": null,
+        "course_fees_inr": null,
+        "fee_academic_year": null
+      },
+      "placements": {
+        "placement_stack": null,
+        "average_package_lpa": null,
+        "median_package_lpa": null,
+        "highest_package_lpa": null,
+        "students_eligible": null,
+        "students_placed": null,
+        "students_receiving_highest_package": null,
+        "placement_year": null,
+        "placement_source_url": null
+      },
+      "campus": {
+        "area_acres": null,
+        "area_definition": null
+      },
+      "student_feedback": {
+        "rating": null,
+        "rating_scale": null,
+        "review_count": null,
+        "platform": null,
+        "review_date": null
+      },
+      "ranking_and_tier": {
+        "tier": null,
+        "tier_is_official": false,
+        "nirf_rank": null,
+        "nirf_category": null,
+        "nirf_year": null
+      },
+      "data_status": "partial_directory_record",
+      "record_notes": "Verify current courses, approvals, fees and placement outcomes from the institution's official disclosures."
+    }
+  ]
+}
