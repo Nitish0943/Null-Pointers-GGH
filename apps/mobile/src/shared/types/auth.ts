@@ -1,5 +1,10 @@
 export type UserRole =
-  'student' | 'mentor' | 'college' | 'scholarship_authority' | 'bank' | 'admin';
+  | 'school_student'
+  | 'college_student'
+  | 'student'
+  | 'mentor'
+  | 'college'
+  | 'admin';
 
 export type UserProfile = {
   uid: string;
@@ -11,8 +16,11 @@ export type UserProfile = {
   onboardingCompleted: boolean;
   preferredLanguage: string;
   studyLevel?: string;
+  schoolName?: string;
   location?: string;
+  address?: string;
   interest?: string;
+  assessmentCompleted?: boolean;
   createdAt?: unknown;
   updatedAt?: unknown;
 };

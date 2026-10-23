@@ -2,10 +2,13 @@
   "name": "@mantrix/firebase-functions",
   "private": true,
   "version": "0.1.0",
+  "main": "lib/index.js",
   "engines": {
     "node": "22"
   },
   "scripts": {
+    "build": "tsc",
+    "seed:assessment": "node lib/seed-assessment-bank.js",
     "typecheck": "tsc --noEmit",
     "lint": "prettier --check src",
     "test": "echo \"No functions test suite configured yet.\""

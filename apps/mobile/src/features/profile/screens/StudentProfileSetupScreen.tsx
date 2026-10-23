@@ -25,25 +25,34 @@ const gradeOptions = ['9th', '10th', '11th', '12th', 'College'];
 const interestOptions = ['Technology', 'Design', 'Business', 'Science'];
 
 export function StudentProfileSetupScreen({ navigation }: Props) {
-  const { user } = useAuth();
-  const [name, setName] = useState('');
-  const [grade, setGrade] = useState('');
-  const [location, setLocation] = useState('');
-  const [interest, setInterest] = useState('');
+  const { profile, refreshProfile, user } = useAuth();
+  const [grade, setGrade] = useState(profile?.studyLevel ?? '');
+  const [schoolName, setSchoolName] = useState(profile?.schoolName ?? '');
+  const [location, setLocation] = useState(profile?.location ?? '');
+  const [address, setAddress] = useState(profile?.address ?? '');
+  const [interest, setInterest] = useState(profile?.interest ?? '');
   const [error, setError] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   function submit() {
-    if (name.trim().length < 2) {
-      setError('Enter your name to continue.');
+    if (!grade) {
+      setError('Enter your current standard or education level.');
       return;
     }
-    if (!grade) {
-      setError('Choose your current level of study.');
+    if (!schoolName.trim()) {
+      setError('Enter the school or college you currently attend.');
       return;
     }
     if (!location.trim()) {
       setError('Add your city or region to continue.');
+      return;
+    }
+    if (!address.trim()) {
+      setError('Add your current address to continue.');
+      return;
+    }
+    if (!interest.trim()) {
+      setError('Tell us what you are interested in.');
       return;
     }
 
@@ -55,13 +64,17 @@ export function StudentProfileSetupScreen({ navigation }: Props) {
     setError('');
     setIsSubmitting(true);
     void updateUserProfile(user.uid, {
-      displayName: name.trim(),
       studyLevel: grade,
+      schoolName: schoolName.trim(),
       location: location.trim(),
+      address: address.trim(),
       interest,
       onboardingCompleted: true,
     })
-      .then(() => navigation.replace('Home'))
+      .then(async () => {
+        await refreshProfile();
+        navigation.replace('Home');
+      })
       .catch((submissionError: unknown) => {
         setError(getAuthErrorMessage(submissionError));
       })
@@ -103,16 +116,14 @@ export function StudentProfileSetupScreen({ navigation }: Props) {
 
           <View style={styles.form}>
             <View style={styles.fieldGroup}>
-              <Text style={styles.label}>What should we call you?</Text>
-              <TextInput
-                autoCapitalize="words"
-                autoComplete="name"
-                onChangeText={setName}
-                placeholder="Your full name"
-                placeholderTextColor="#9AAAB5"
-                style={styles.input}
-                value={name}
-              />
+              <Text style={styles.label}>Your name</Text>
+              <View style={styles.readOnlyField}>
+                <Text style={styles.readOnlyText}>
+                  {profile?.displayName ||
+                    user?.displayName ||
+                    'Your account name'}
+                </Text>
+              </View>
             </View>
 
             <View style={styles.fieldGroup}>
@@ -143,6 +154,18 @@ export function StudentProfileSetupScreen({ navigation }: Props) {
             </View>
 
             <View style={styles.fieldGroup}>
+              <Text style={styles.label}>School or college</Text>
+              <TextInput
+                autoCapitalize="words"
+                onChangeText={setSchoolName}
+                placeholder="Write your school or college"
+                placeholderTextColor="#9AAAB5"
+                style={styles.input}
+                value={schoolName}
+              />
+            </View>
+
+            <View style={styles.fieldGroup}>
               <Text style={styles.label}>City or region</Text>
               <TextInput
                 autoCapitalize="words"
@@ -155,7 +178,27 @@ export function StudentProfileSetupScreen({ navigation }: Props) {
             </View>
 
             <View style={styles.fieldGroup}>
+              <Text style={styles.label}>Complete address</Text>
+              <TextInput
+                autoCapitalize="sentences"
+                multiline
+                onChangeText={setAddress}
+                placeholder="House, street, city, state"
+                placeholderTextColor="#9AAAB5"
+                style={[styles.input, styles.multilineInput]}
+                value={address}
+              />
+            </View>
+
+            <View style={styles.fieldGroup}>
               <Text style={styles.label}>What are you curious about?</Text>
+              <TextInput
+                onChangeText={setInterest}
+                placeholder="Write your own interest"
+                placeholderTextColor="#9AAAB5"
+                style={styles.input}
+                value={interest}
+              />
               <View style={styles.options}>
                 {interestOptions.map((option) => {
                   const selected = option === interest;
@@ -305,6 +348,24 @@ const styles = StyleSheet.create({
     fontSize: 15,
     minHeight: 52,
     paddingHorizontal: 16,
+  },
+  readOnlyField: {
+    backgroundColor: '#EEF3F6',
+    borderColor: '#D9E3E9',
+    borderRadius: 12,
+    borderWidth: 1,
+    justifyContent: 'center',
+    minHeight: 52,
+    paddingHorizontal: 16,
+  },
+  readOnlyText: {
+    color: '#5D7182',
+    fontSize: 15,
+  },
+  multilineInput: {
+    minHeight: 84,
+    paddingTop: 14,
+    textAlignVertical: 'top',
   },
   options: {
     flexDirection: 'row',

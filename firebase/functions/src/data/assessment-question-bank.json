@@ -1,0 +1,140 @@
+[
+  {
+    "id": "school-problem-solving",
+    "prompt": "When a science or technology problem feels difficult, what do you do first?",
+    "options": [
+      "Draw or model the problem",
+      "Try a small experiment",
+      "Ask someone to explain it",
+      "Break it into steps"
+    ],
+    "dimension": "problem_solving",
+    "educationLevels": ["9th", "10th", "11th", "12th"],
+    "interestTags": ["technology", "science"],
+    "difficulty": "foundation"
+  },
+  {
+    "id": "school-creative-project",
+    "prompt": "Which project would you most enjoy completing?",
+    "options": [
+      "Designing an app screen",
+      "Building a working model",
+      "Writing a story",
+      "Organising a community event"
+    ],
+    "dimension": "interests",
+    "educationLevels": ["9th", "10th", "11th", "12th"],
+    "interestTags": ["technology", "design", "business"],
+    "difficulty": "foundation"
+  },
+  {
+    "id": "school-learning",
+    "prompt": "How do you learn a new topic most comfortably?",
+    "options": [
+      "Watching an example",
+      "Trying it hands-on",
+      "Reading and taking notes",
+      "Discussing it with others"
+    ],
+    "dimension": "learning_style",
+    "educationLevels": ["9th", "10th", "11th", "12th"],
+    "interestTags": ["science", "design", "technology"],
+    "difficulty": "foundation"
+  },
+  {
+    "id": "school-team",
+    "prompt": "What role do you naturally take in a team project?",
+    "options": [
+      "Generate new ideas",
+      "Build or test the solution",
+      "Explain the work",
+      "Keep the plan moving"
+    ],
+    "dimension": "collaboration",
+    "educationLevels": ["9th", "10th", "11th", "12th"],
+    "interestTags": ["business", "design", "technology"],
+    "difficulty": "foundation"
+  },
+  {
+    "id": "college-data",
+    "prompt": "Which task would you find most satisfying in a college project?",
+    "options": [
+      "Find patterns in data",
+      "Interview users",
+      "Design the experience",
+      "Plan delivery milestones"
+    ],
+    "dimension": "interests",
+    "educationLevels": ["college"],
+    "interestTags": ["technology", "science", "business", "design"],
+    "difficulty": "developing"
+  },
+  {
+    "id": "college-ambiguity",
+    "prompt": "When a project brief is unclear, what is your strongest first move?",
+    "options": [
+      "Clarify the desired outcome",
+      "Research similar solutions",
+      "Prototype an option",
+      "Map risks and dependencies"
+    ],
+    "dimension": "problem_solving",
+    "educationLevels": ["college"],
+    "interestTags": ["business", "technology", "design"],
+    "difficulty": "developing"
+  },
+  {
+    "id": "college-learning",
+    "prompt": "Which learning activity helps you retain a difficult concept?",
+    "options": [
+      "Solve a realistic case",
+      "Teach it to someone",
+      "Build a working example",
+      "Compare multiple theories"
+    ],
+    "dimension": "learning_style",
+    "educationLevels": ["college"],
+    "interestTags": ["science", "technology", "business"],
+    "difficulty": "developing"
+  },
+  {
+    "id": "college-collaboration",
+    "prompt": "How do you contribute when a team disagrees about direction?",
+    "options": [
+      "Bring evidence",
+      "Find common goals",
+      "Suggest a small test",
+      "Help decide and document next steps"
+    ],
+    "dimension": "collaboration",
+    "educationLevels": ["college"],
+    "interestTags": ["business", "technology", "design"],
+    "difficulty": "developing"
+  },
+  {
+    "id": "general-curiosity",
+    "prompt": "Which outcome would make you most proud after learning something new?",
+    "options": [
+      "Understanding how it works",
+      "Making something useful",
+      "Helping someone else learn",
+      "Finding a new question"
+    ],
+    "dimension": "interests",
+    "interestTags": ["science", "technology", "design", "business"],
+    "difficulty": "foundation"
+  },
+  {
+    "id": "general-future",
+    "prompt": "Which future activity sounds most motivating?",
+    "options": [
+      "Solve a meaningful problem",
+      "Create a useful product",
+      "Work closely with people",
+      "Explore an unfamiliar idea"
+    ],
+    "dimension": "interests",
+    "interestTags": ["science", "technology", "design", "business"],
+    "difficulty": "foundation"
+  }
+]

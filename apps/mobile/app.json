@@ -11,6 +11,16 @@
     "androidStatusBar": {
       "backgroundColor": "#17324D",
       "barStyle": "light-content"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyB9vrAy_urtpKyL4CAbUHsgBN3GmSK6J20",
+        "authDomain": "mantrix-edc02.firebaseapp.com",
+        "projectId": "mantrix-edc02",
+        "storageBucket": "mantrix-edc02.firebasestorage.app",
+        "messagingSenderId": "660552439780",
+        "appId": "1:660552439780:web:320069134339bb843c59f1"
+      }
     }
   }
 }

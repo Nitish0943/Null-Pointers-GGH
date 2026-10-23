@@ -1,0 +1,1086 @@
+{
+  "dataset_name": "Chhattisgarh Colleges Directory and Enrollment Template",
+  "description": "A 50-record starter directory spanning technology, general/non-technical, design/fine arts, pharmacy, BBA/BCA, law, medical, nursing, agriculture, polytechnic and hospitality institutions.",
+  "state": "Chhattisgarh",
+  "academic_year": "2025-2026",
+  "record_count": 50,
+  "data_quality_note": "Institution names and affiliations are a starter compilation and must be verified before official use. Enrollment counts are intentionally null rather than fabricated. Some entries use generic institution labels where a verified exact name or current affiliation requires confirmation. This is not an official census or a guaranteed exhaustive list.",
+  "recommended_official_validation_sources": [
+    "AISHE (All India Survey on Higher Education) reports and institution-level data",
+    "UGC list of universities and colleges",
+    "AICTE approved institutes list",
+    "National Medical Commission and relevant state health sciences university lists",
+    "PCI (Pharmacy Council of India) approved institutions",
+    "Relevant state affiliating universities and technical education department"
+  ],
+  "records": [
+    {
+      "college_id": "CG001",
+      "college_name": "Government D.B. Girls' Post Graduate College",
+      "district_or_location": "Raipur",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Ravishankar Shukla University",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG002",
+      "college_name": "Government Nagarjuna Post Graduate College",
+      "district_or_location": "Raipur",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Ravishankar Shukla University",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG003",
+      "college_name": "Government J. Yoganandam Chhattisgarh College",
+      "district_or_location": "Raipur",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Ravishankar Shukla University",
+      "course_categories": [
+        "Arts",
+        "Commerce",
+        "Law"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG004",
+      "college_name": "Government Arts and Commerce Girls College",
+      "district_or_location": "Raipur",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Ravishankar Shukla University",
+      "course_categories": [
+        "Arts",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG005",
+      "college_name": "Government V.Y.T. PG Autonomous College",
+      "district_or_location": "Durg",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Hemchand Yadav Vishwavidyalaya",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG006",
+      "college_name": "Government Arts and Science College",
+      "district_or_location": "Bhilai",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Hemchand Yadav Vishwavidyalaya",
+      "course_categories": [
+        "Arts",
+        "Science"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG007",
+      "college_name": "Government E. Raghavendra Rao Postgraduate Science College",
+      "district_or_location": "Bilaspur",
+      "college_type": "Science College",
+      "management_type": "Government",
+      "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
+      "course_categories": [
+        "Science",
+        "Computer Science"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG008",
+      "college_name": "Government Bilasa Girls PG College",
+      "district_or_location": "Bilaspur",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG009",
+      "college_name": "Government P.G. College",
+      "district_or_location": "Ambikapur",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Sant Gahira Guru Vishwavidyalaya",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG010",
+      "college_name": "Government Kaktiya PG College",
+      "district_or_location": "Jagdalpur",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Shaheed Mahendra Karma Vishwavidyalaya",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG011",
+      "college_name": "Rungta College of Engineering and Technology",
+      "district_or_location": "Bhilai",
+      "college_type": "Engineering College",
+      "management_type": "Private",
+      "university_affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+      "course_categories": [
+        "B.Tech",
+        "Computer Science",
+        "Mechanical",
+        "Civil",
+        "Electronics"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG012",
+      "college_name": "Bhilai Institute of Technology",
+      "district_or_location": "Durg",
+      "college_type": "Engineering College",
+      "management_type": "Private",
+      "university_affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+      "course_categories": [
+        "B.Tech",
+        "M.Tech",
+        "Computer Science",
+        "Electrical",
+        "Mechanical"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG013",
+      "college_name": "National Institute of Technology Raipur",
+      "district_or_location": "Raipur",
+      "college_type": "Engineering College",
+      "management_type": "Government",
+      "university_affiliation": "Autonomous/Institute of National Importance",
+      "course_categories": [
+        "B.Tech",
+        "M.Tech",
+        "Architecture",
+        "Computer Science"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG014",
+      "college_name": "Indian Institute of Technology Bhilai",
+      "district_or_location": "Bhilai",
+      "college_type": "Engineering College",
+      "management_type": "Government",
+      "university_affiliation": "Autonomous/Institute of National Importance",
+      "course_categories": [
+        "B.Tech",
+        "M.Tech",
+        "Computer Science",
+        "Data Science"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG015",
+      "college_name": "Chouksey Engineering College",
+      "district_or_location": "Bilaspur",
+      "college_type": "Engineering College",
+      "management_type": "Private",
+      "university_affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+      "course_categories": [
+        "B.Tech",
+        "Computer Science",
+        "Civil",
+        "Mechanical"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG016",
+      "college_name": "Shri Shankaracharya Technical Campus",
+      "district_or_location": "Bhilai",
+      "college_type": "Engineering College",
+      "management_type": "Private",
+      "university_affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+      "course_categories": [
+        "B.Tech",
+        "MBA",
+        "Computer Science",
+        "Electronics"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG017",
+      "college_name": "Government Polytechnic",
+      "district_or_location": "Raipur",
+      "college_type": "Polytechnic",
+      "management_type": "Government",
+      "university_affiliation": "Technical Education Board/State affiliation",
+      "course_categories": [
+        "Diploma Engineering",
+        "Computer",
+        "Electrical",
+        "Mechanical"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG018",
+      "college_name": "Government Polytechnic",
+      "district_or_location": "Durg",
+      "college_type": "Polytechnic",
+      "management_type": "Government",
+      "university_affiliation": "Technical Education Board/State affiliation",
+      "course_categories": [
+        "Diploma Engineering",
+        "Civil",
+        "Electrical",
+        "Mechanical"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG019",
+      "college_name": "Government Polytechnic",
+      "district_or_location": "Bilaspur",
+      "college_type": "Polytechnic",
+      "management_type": "Government",
+      "university_affiliation": "Technical Education Board/State affiliation",
+      "course_categories": [
+        "Diploma Engineering",
+        "Computer",
+        "Electrical"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG020",
+      "college_name": "Government Engineering College",
+      "district_or_location": "Jagdalpur",
+      "college_type": "Engineering College",
+      "management_type": "Government",
+      "university_affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+      "course_categories": [
+        "B.Tech",
+        "Civil",
+        "Mechanical",
+        "Electrical"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG021",
+      "college_name": "Kalinga University",
+      "district_or_location": "Naya Raipur",
+      "college_type": "Private University",
+      "management_type": "Private",
+      "university_affiliation": "Kalinga University",
+      "course_categories": [
+        "Engineering",
+        "Management",
+        "Law",
+        "Design",
+        "Science"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG022",
+      "college_name": "Amity University Chhattisgarh",
+      "district_or_location": "Raipur",
+      "college_type": "Private University",
+      "management_type": "Private",
+      "university_affiliation": "Amity University Chhattisgarh",
+      "course_categories": [
+        "Engineering",
+        "BBA",
+        "BCA",
+        "Design",
+        "Law",
+        "Management"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG023",
+      "college_name": "ITM University",
+      "district_or_location": "Raipur",
+      "college_type": "Private University",
+      "management_type": "Private",
+      "university_affiliation": "ITM University Raipur",
+      "course_categories": [
+        "Engineering",
+        "Management",
+        "Design",
+        "Science",
+        "Computer Applications"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG024",
+      "college_name": "MATS University",
+      "district_or_location": "Aarang/Raipur",
+      "college_type": "Private University",
+      "management_type": "Private",
+      "university_affiliation": "MATS University",
+      "course_categories": [
+        "Engineering",
+        "BBA",
+        "BCA",
+        "Law",
+        "Design",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG025",
+      "college_name": "Shri Rawatpura Sarkar University",
+      "district_or_location": "Raipur",
+      "college_type": "Private University",
+      "management_type": "Private",
+      "university_affiliation": "Shri Rawatpura Sarkar University",
+      "course_categories": [
+        "Engineering",
+        "Management",
+        "Pharmacy",
+        "Arts",
+        "Science"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG026",
+      "college_name": "OP Jindal University",
+      "district_or_location": "Raigarh",
+      "college_type": "Private University",
+      "management_type": "Private",
+      "university_affiliation": "O.P. Jindal University",
+      "course_categories": [
+        "Engineering",
+        "Management",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG027",
+      "college_name": "Hidayatullah National Law University",
+      "district_or_location": "Naya Raipur",
+      "college_type": "Law University",
+      "management_type": "Government",
+      "university_affiliation": "Hidayatullah National Law University",
+      "course_categories": [
+        "BA LLB",
+        "LLM",
+        "Legal Studies"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG028",
+      "college_name": "Government Science College",
+      "district_or_location": "Raipur",
+      "college_type": "Science College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Ravishankar Shukla University",
+      "course_categories": [
+        "B.Sc",
+        "M.Sc",
+        "Mathematics",
+        "Physics",
+        "Chemistry"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG029",
+      "college_name": "Government Arts and Commerce College",
+      "district_or_location": "Bhatapara",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
+      "course_categories": [
+        "Arts",
+        "Commerce",
+        "Economics"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG030",
+      "college_name": "Government College",
+      "district_or_location": "Dhamtari",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Ravishankar Shukla University",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG031",
+      "college_name": "Government College",
+      "district_or_location": "Kawardha",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Hemchand Yadav Vishwavidyalaya/Regional affiliation",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG032",
+      "college_name": "Government College",
+      "district_or_location": "Mahasamund",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Ravishankar Shukla University",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG033",
+      "college_name": "Government College",
+      "district_or_location": "Korba",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya/Regional affiliation",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG034",
+      "college_name": "Government College",
+      "district_or_location": "Raigarh",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Shaheed Nandkumar Patel Vishwavidyalaya",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG035",
+      "college_name": "Government College",
+      "district_or_location": "Janjgir-Champa",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Shaheed Nandkumar Patel Vishwavidyalaya",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG036",
+      "college_name": "Government College",
+      "district_or_location": "Kanker",
+      "college_type": "General Degree College",
+      "management_type": "Government",
+      "university_affiliation": "Bastar/Sarguja regional affiliation",
+      "course_categories": [
+        "Arts",
+        "Science",
+        "Commerce"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG037",
+      "college_name": "Government Medical College",
+      "district_or_location": "Raipur",
+      "college_type": "Medical College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+      "course_categories": [
+        "MBBS",
+        "MD/MS",
+        "Medical Sciences"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG038",
+      "college_name": "Chhattisgarh Institute of Medical Sciences",
+      "district_or_location": "Bilaspur",
+      "college_type": "Medical College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+      "course_categories": [
+        "MBBS",
+        "MD/MS",
+        "Medical Sciences"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG039",
+      "college_name": "Government Medical College",
+      "district_or_location": "Rajnandgaon",
+      "college_type": "Medical College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+      "course_categories": [
+        "MBBS",
+        "Medical Sciences"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG040",
+      "college_name": "Government Medical College",
+      "district_or_location": "Jagdalpur",
+      "college_type": "Medical College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+      "course_categories": [
+        "MBBS",
+        "Medical Sciences"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG041",
+      "college_name": "Government Dental College",
+      "district_or_location": "Raipur",
+      "college_type": "Dental College",
+      "management_type": "Government",
+      "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+      "course_categories": [
+        "BDS",
+        "MDS",
+        "Dental Sciences"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG042",
+      "college_name": "Government Pharmacy College",
+      "district_or_location": "Raipur",
+      "college_type": "Pharmacy College",
+      "management_type": "Government",
+      "university_affiliation": "Relevant state technical/university affiliation",
+      "course_categories": [
+        "B.Pharm",
+        "D.Pharm",
+        "M.Pharm"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG043",
+      "college_name": "Shri Shankaracharya Institute of Pharmaceutical Sciences",
+      "district_or_location": "Bhilai",
+      "college_type": "Pharmacy College",
+      "management_type": "Private",
+      "university_affiliation": "Relevant university/technical affiliation",
+      "course_categories": [
+        "B.Pharm",
+        "M.Pharm"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG044",
+      "college_name": "Government Nursing College",
+      "district_or_location": "Raipur",
+      "college_type": "Nursing College",
+      "management_type": "Government",
+      "university_affiliation": "Relevant health sciences university",
+      "course_categories": [
+        "B.Sc Nursing",
+        "M.Sc Nursing",
+        "GNM"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG045",
+      "college_name": "Government College of Nursing",
+      "district_or_location": "Bilaspur",
+      "college_type": "Nursing College",
+      "management_type": "Government",
+      "university_affiliation": "Relevant health sciences university",
+      "course_categories": [
+        "B.Sc Nursing",
+        "GNM"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG046",
+      "college_name": "Government College of Agriculture",
+      "district_or_location": "Raipur",
+      "college_type": "Agriculture College",
+      "management_type": "Government",
+      "university_affiliation": "Indira Gandhi Krishi Vishwavidyalaya",
+      "course_categories": [
+        "B.Sc Agriculture",
+        "M.Sc Agriculture",
+        "Agricultural Sciences"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG047",
+      "college_name": "Indira Gandhi Krishi Vishwavidyalaya College",
+      "district_or_location": "Raipur",
+      "college_type": "Agriculture University/College",
+      "management_type": "Government",
+      "university_affiliation": "Indira Gandhi Krishi Vishwavidyalaya",
+      "course_categories": [
+        "Agriculture",
+        "Horticulture",
+        "Agricultural Engineering"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG048",
+      "college_name": "Government Law College",
+      "district_or_location": "Bilaspur",
+      "college_type": "Law College",
+      "management_type": "Government",
+      "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya/Relevant affiliation",
+      "course_categories": [
+        "LLB",
+        "Legal Studies"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG049",
+      "college_name": "Government College of Fine Arts",
+      "district_or_location": "Raipur",
+      "college_type": "Design and Fine Arts College",
+      "management_type": "Government",
+      "university_affiliation": "Relevant state university affiliation",
+      "course_categories": [
+        "Fine Arts",
+        "Visual Arts",
+        "Applied Arts"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    },
+    {
+      "college_id": "CG050",
+      "college_name": "Institute of Hotel Management, Catering Technology and Applied Nutrition",
+      "district_or_location": "Raipur",
+      "college_type": "Hotel Management College",
+      "management_type": "Government/Institute",
+      "university_affiliation": "National Council for Hotel Management and Catering Technology",
+      "course_categories": [
+        "Hotel Management",
+        "Hospitality",
+        "Food Production"
+      ],
+      "academic_year": "2025-2026",
+      "enrollment": {
+        "total_students": null,
+        "male_students": null,
+        "female_students": null,
+        "other_or_not_reported": null
+      },
+      "enrollment_status": "not_verified_or_not_available"
+    }
+  ]
+}

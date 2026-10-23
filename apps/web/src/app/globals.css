@@ -46,6 +46,47 @@ a {
   gap: 16px;
 }
 
+.college-directory {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  margin-top: 2rem;
+}
+
+.college-directory-card {
+  background: #fff;
+  border: 1px solid #dbe5e8;
+  border-radius: 1rem;
+  padding: 1.25rem;
+}
+
+.college-directory-card h3 {
+  color: #17324d;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin: 0.4rem 0;
+}
+
+.college-directory-card p {
+  color: #5d7182;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0.35rem 0;
+}
+
+.college-directory-id {
+  color: #0f766e !important;
+  font-size: 0.75rem !important;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.college-directory-courses {
+  border-top: 1px solid #edf2f3;
+  margin-top: 0.8rem !important;
+  padding-top: 0.8rem;
+}
+
 .brand {
   color: #fff;
   font-size: 1.25rem;

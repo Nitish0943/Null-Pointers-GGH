@@ -1,20 +1,24 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import type { RootStackParamList } from '../../../app/AppNavigator';
+import {
+  evaluateAssessment,
+  generateAssessmentQuestions,
+  type AssessmentQuestion,
+} from '../../../shared/services/assessment-service';
+import { getAuthErrorMessage } from '../../../shared/services/auth-service';
+import { useAuth } from '../../../shared/services/AuthProvider';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Assessment'>;
 
-type Question = {
-  prompt: string;
-  options: string[];
-};
-
-const questions: Question[] = [
+const fallbackQuestions: AssessmentQuestion[] = [
   {
+    id: 'fallback-1',
     prompt: 'When you face a new challenge, what feels most natural?',
+    dimension: 'problem_solving',
     options: [
       'I explore different possibilities first.',
       'I look for a clear, practical next step.',
@@ -23,7 +27,9 @@ const questions: Question[] = [
     ],
   },
   {
+    id: 'fallback-2',
     prompt: 'What kind of work gives you the most energy?',
+    dimension: 'interests',
     options: [
       'Creating something people can experience.',
       'Finding patterns and making sense of information.',
@@ -32,7 +38,9 @@ const questions: Question[] = [
     ],
   },
   {
+    id: 'fallback-3',
     prompt: 'How do you prefer to learn something new?',
+    dimension: 'learning_style',
     options: [
       'By trying it hands-on.',
       'By understanding the ideas behind it.',
@@ -43,8 +51,42 @@ const questions: Question[] = [
 ];
 
 export function AssessmentScreen({ navigation }: Props) {
+  const { profile } = useAuth();
+  const [questions, setQuestions] = useState<AssessmentQuestion[]>([]);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
+  const [error, setError] = useState('');
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    void generateAssessmentQuestions({
+      role: profile?.role,
+      studyLevel: profile?.studyLevel,
+      interest: profile?.interest,
+    })
+      .then((generated) => setQuestions(generated))
+      .catch((generationError: unknown) => {
+        setQuestions(fallbackQuestions);
+        setError(
+          `${getAuthErrorMessage(generationError)} Showing the bundled practice assessment.`,
+        );
+      })
+      .finally(() => setIsLoading(false));
+  }, [profile?.interest, profile?.studyLevel]);
+
+  if (isLoading || !questions.length) {
+    return (
+      <SafeAreaView style={styles.safeArea}>
+        <View style={styles.loading}>
+          <Text style={styles.eyebrow}>PERSONALISING YOUR ASSESSMENT</Text>
+          <Text style={styles.title}>Creating questions for you…</Text>
+          <Text style={styles.description}>
+            Your profile is being used to set the level and examples.
+          </Text>
+        </View>
+      </SafeAreaView>
+    );
+  }
   const question = questions[questionIndex];
   const selectedAnswer = answers[questionIndex];
   const progress = (questionIndex + 1) / questions.length;
@@ -58,7 +100,19 @@ export function AssessmentScreen({ navigation }: Props) {
       return;
     }
     if (questionIndex === questions.length - 1) {
-      navigation.replace('AssessmentProgress');
+      void evaluateAssessment(
+        questions,
+        Object.fromEntries(
+          Object.entries(answers).map(([index, answer]) => [
+            questions[Number(index)].id,
+            answer,
+          ]),
+        ),
+      )
+        .then(() => navigation.replace('AssessmentProgress'))
+        .catch((evaluationError: unknown) =>
+          setError(getAuthErrorMessage(evaluationError)),
+        );
       return;
     }
     setQuestionIndex((index) => index + 1);
@@ -95,6 +149,7 @@ export function AssessmentScreen({ navigation }: Props) {
             Choose the answer that feels most like you.
           </Text>
         </View>
+        {error ? <Text style={styles.error}>{error}</Text> : null}
 
         <View style={styles.options}>
           {question.options.map((option, index) => {
@@ -176,6 +231,11 @@ export function AssessmentScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   safeArea: { backgroundColor: '#F7FAFC', flex: 1 },
   container: { flexGrow: 1, padding: 24 },
+  loading: {
+    flex: 1,
+    justifyContent: 'center',
+    padding: 24,
+  },
   topBar: {
     alignItems: 'center',
     flexDirection: 'row',
@@ -277,4 +337,10 @@ const styles = StyleSheet.create({
   pressed: { opacity: 0.78 },
   primaryText: { color: '#FFFFFF', fontSize: 16, fontWeight: '800' },
   arrow: { color: '#5EEAD4', fontSize: 22, marginLeft: 12 },
+  error: {
+    color: '#B42318',
+    fontSize: 12,
+    lineHeight: 18,
+    marginTop: 16,
+  },
 });

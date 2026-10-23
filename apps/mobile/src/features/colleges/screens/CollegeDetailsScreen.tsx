@@ -4,6 +4,7 @@ import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import type { RootStackParamList } from '../../../app/AppNavigator';
+import catalog from '../data/college-catalog.json';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'CollegeDetails'>;
 
@@ -70,7 +71,25 @@ const colleges: Record<string, CollegeDetails> = {
 
 export function CollegeDetailsScreen({ navigation, route }: Props) {
   const [isSaved, setIsSaved] = useState(false);
-  const college = colleges[route.params.collegeId] ?? colleges.northstar;
+  const catalogCollege = catalog.find(
+    (item) => item.id === route.params.collegeId,
+  );
+  const college =
+    (catalogCollege && {
+      name: catalogCollege.name,
+      city: catalogCollege.city,
+      type: catalogCollege.type,
+      color: '#0F766E',
+      icon: '◎',
+      highlight: `${catalogCollege.management} institution affiliated with ${catalogCollege.affiliation}.`,
+      courses: catalogCollege.courses,
+      learning: `Explore ${catalogCollege.courses.join(', ')} through the programmes offered by this institution.`,
+      environment: `${catalogCollege.management} college in ${catalogCollege.city}, Chhattisgarh.`,
+      firstStep:
+        'Verify current courses, admission requirements, fees, and affiliation with the official institution.',
+    }) ??
+    colleges[route.params.collegeId] ??
+    colleges.northstar;
 
   return (
     <SafeAreaView style={styles.safeArea}>

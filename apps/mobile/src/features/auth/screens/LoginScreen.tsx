@@ -21,7 +21,7 @@ import {
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Login'>;
 
-export function LoginScreen({ navigation }: Props) {
+export function LoginScreen({ navigation, route }: Props) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
@@ -161,7 +161,7 @@ export function LoginScreen({ navigation }: Props) {
             <Pressable
               accessibilityRole="button"
               accessibilityLabel="Create a Mantrix account"
-              onPress={() => navigation.navigate('Signup')}
+              onPress={() => navigation.navigate('Signup', route.params)}
             >
               <Text style={styles.signupAction}>Create an account</Text>
             </Pressable>
