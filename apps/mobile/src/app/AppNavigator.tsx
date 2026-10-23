@@ -36,6 +36,7 @@ import { StudentProfileSetupScreen } from '../features/profile/screens/StudentPr
 import { WelcomeScreen } from '../features/onboarding/screens/WelcomeScreen';
 import { FeatureScreen } from '../shared/components/feedback/FeatureScreen';
 import { useAuth } from '../shared/services/AuthProvider';
+import type { UserRole } from '../shared/types/auth';
 
 export type FeatureRouteName =
   | 'AdmissionTimeline'
@@ -89,10 +90,10 @@ type CoreStackParamList = {
   Welcome: undefined;
   Onboarding: undefined;
   RoleSelection: undefined;
-  Login: undefined;
-  Signup: undefined;
+  Login: { role?: Exclude<UserRole, 'admin'> } | undefined;
+  Signup: { role?: Exclude<UserRole, 'admin'> } | undefined;
   ForgotPassword: undefined;
-  EmailVerification: { email: string };
+  EmailVerification: { email?: string } | undefined;
   StudentOnboarding: undefined;
   StudentProfileSetup: undefined;
   Home: undefined;

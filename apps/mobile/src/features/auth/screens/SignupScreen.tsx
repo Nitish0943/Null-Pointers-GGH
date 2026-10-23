@@ -21,7 +21,7 @@ import {
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Signup'>;
 
-export function SignupScreen({ navigation }: Props) {
+export function SignupScreen({ navigation, route }: Props) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -45,7 +45,7 @@ export function SignupScreen({ navigation }: Props) {
 
     setError('');
     setIsSubmitting(true);
-    void registerUser(name, email, password)
+    void registerUser(name, email, password, route.params?.role)
       .then(() =>
         navigation.replace('EmailVerification', { email: email.trim() }),
       )

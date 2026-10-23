@@ -11,6 +11,7 @@ import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import type { RootStackParamList } from '../../../app/AppNavigator';
+import catalog from '../data/college-catalog.json';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'CollegeFinder'>;
 
@@ -19,46 +20,17 @@ type College = {
   name: string;
   city: string;
   type: string;
-  highlight: string;
-  courses: string;
-  color: string;
-  icon: string;
+  management: string;
+  affiliation: string;
+  courses: string[];
+  academicYear: string;
 };
 
-const colleges: College[] = [
-  {
-    id: 'northstar',
-    name: 'Northstar Institute of Design',
-    city: 'Bengaluru',
-    type: 'Design school',
-    highlight: 'Project-led learning and studio mentorship.',
-    courses: 'Design, interaction, innovation',
-    color: '#6366F1',
-    icon: '◇',
-  },
-  {
-    id: 'civic-tech',
-    name: 'Civic Technology University',
-    city: 'Pune',
-    type: 'University',
-    highlight: 'Technology pathways with community impact.',
-    courses: 'Computing, data, public systems',
-    color: '#0F766E',
-    icon: '◎',
-  },
-  {
-    id: 'horizon',
-    name: 'Horizon College of Applied Science',
-    city: 'Hyderabad',
-    type: 'College',
-    highlight: 'Hands-on learning with industry projects.',
-    courses: 'Technology, analytics, business',
-    color: '#C26A1B',
-    icon: '▥',
-  },
+const colleges = catalog as College[];
+const filters = [
+  'All',
+  ...Array.from(new Set(colleges.map((college) => college.city))).sort(),
 ];
-
-const filters = ['All', 'Bengaluru', 'Pune', 'Hyderabad'];
 
 export function CollegeFinderScreen({ navigation }: Props) {
   const [query, setQuery] = useState('');
@@ -70,7 +42,7 @@ export function CollegeFinderScreen({ navigation }: Props) {
     return colleges.filter((college) => {
       const matchesQuery =
         !normalizedQuery ||
-        `${college.name} ${college.city} ${college.type} ${college.courses}`
+        `${college.name} ${college.city} ${college.type} ${college.management} ${college.affiliation} ${college.courses.join(' ')}`
           .toLowerCase()
           .includes(normalizedQuery);
       const matchesFilter = filter === 'All' || college.city === filter;
@@ -179,26 +151,21 @@ export function CollegeFinderScreen({ navigation }: Props) {
                 ]}
               >
                 <View
-                  style={[
-                    styles.collegeIcon,
-                    { backgroundColor: `${college.color}18` },
-                  ]}
+                  style={[styles.collegeIcon, { backgroundColor: '#E8F3F2' }]}
                 >
-                  <Text
-                    style={[styles.collegeIconText, { color: college.color }]}
-                  >
-                    {college.icon}
-                  </Text>
+                  <Text style={styles.collegeIconText}>◎</Text>
                 </View>
                 <View style={styles.collegeCopy}>
                   <Text style={styles.collegeName}>{college.name}</Text>
                   <Text style={styles.collegeMeta}>
-                    {college.city} · {college.type}
+                    {college.city} · {college.type} · {college.management}
                   </Text>
                   <Text style={styles.collegeHighlight}>
-                    {college.highlight}
+                    {college.affiliation}
                   </Text>
-                  <Text style={styles.collegeCourses}>{college.courses}</Text>
+                  <Text style={styles.collegeCourses}>
+                    {college.courses.join(', ')}
+                  </Text>
                 </View>
                 <Pressable
                   accessibilityRole="button"
@@ -233,8 +200,9 @@ export function CollegeFinderScreen({ navigation }: Props) {
         )}
 
         <Text style={styles.demoNote}>
-          Demo directory · College programmes, admission details, and location
-          data will be connected in a later batch.
+          Chhattisgarh directory · {colleges.length} starter records for
+          2025–2026. Verify admission and affiliation details with official
+          sources before applying.
         </Text>
       </ScrollView>
     </SafeAreaView>

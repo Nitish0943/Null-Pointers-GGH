@@ -29,6 +29,9 @@ export default function HomePage() {
           <a className="secondary-action" href="#about">
             Learn about the platform
           </a>
+          <a className="secondary-action" href="/colleges">
+            Browse colleges
+          </a>
         </div>
       </section>
 

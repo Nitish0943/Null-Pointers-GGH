@@ -15,6 +15,7 @@ type Props = NativeStackScreenProps<RootStackParamList, 'EmailVerification'>;
 
 export function EmailVerificationScreen({ navigation, route }: Props) {
   const { user } = useAuth();
+  const email = route.params?.email ?? user?.email ?? '';
   const [isResending, setIsResending] = useState(false);
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
@@ -79,7 +80,9 @@ export function EmailVerificationScreen({ navigation, route }: Props) {
             In a connected account flow, we would send a verification link to:
           </Text>
           <View style={styles.emailCard}>
-            <Text style={styles.email}>{route.params.email}</Text>
+            <Text style={styles.email}>
+              {email || 'your account email address'}
+            </Text>
           </View>
           <Text style={styles.helper}>
             Open the link in your email to continue securely. Check your spam

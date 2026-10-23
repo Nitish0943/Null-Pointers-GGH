@@ -1,0 +1,524 @@
+﻿[
+  {
+    "id": "CG001",
+    "name": "Government D.B. Girls\u0027 Post Graduate College",
+    "city": "Raipur",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Pt. Ravishankar Shukla University",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG002",
+    "name": "Government Nagarjuna Post Graduate College",
+    "city": "Raipur",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Pt. Ravishankar Shukla University",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG003",
+    "name": "Government J. Yoganandam Chhattisgarh College",
+    "city": "Raipur",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Pt. Ravishankar Shukla University",
+    "courses": ["Arts", "Commerce", "Law"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG004",
+    "name": "Government Arts and Commerce Girls College",
+    "city": "Raipur",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Pt. Ravishankar Shukla University",
+    "courses": ["Arts", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG005",
+    "name": "Government V.Y.T. PG Autonomous College",
+    "city": "Durg",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Hemchand Yadav Vishwavidyalaya",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG006",
+    "name": "Government Arts and Science College",
+    "city": "Bhilai",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Hemchand Yadav Vishwavidyalaya",
+    "courses": ["Arts", "Science"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG007",
+    "name": "Government E. Raghavendra Rao Postgraduate Science College",
+    "city": "Bilaspur",
+    "type": "Science College",
+    "management": "Government",
+    "affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
+    "courses": ["Science", "Computer Science"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG008",
+    "name": "Government Bilasa Girls PG College",
+    "city": "Bilaspur",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG009",
+    "name": "Government P.G. College",
+    "city": "Ambikapur",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Sant Gahira Guru Vishwavidyalaya",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG010",
+    "name": "Government Kaktiya PG College",
+    "city": "Jagdalpur",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Shaheed Mahendra Karma Vishwavidyalaya",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG011",
+    "name": "Rungta College of Engineering and Technology",
+    "city": "Bhilai",
+    "type": "Engineering College",
+    "management": "Private",
+    "affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+    "courses": [
+      "B.Tech",
+      "Computer Science",
+      "Mechanical",
+      "Civil",
+      "Electronics"
+    ],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG012",
+    "name": "Bhilai Institute of Technology",
+    "city": "Durg",
+    "type": "Engineering College",
+    "management": "Private",
+    "affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+    "courses": [
+      "B.Tech",
+      "M.Tech",
+      "Computer Science",
+      "Electrical",
+      "Mechanical"
+    ],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG013",
+    "name": "National Institute of Technology Raipur",
+    "city": "Raipur",
+    "type": "Engineering College",
+    "management": "Government",
+    "affiliation": "Autonomous/Institute of National Importance",
+    "courses": ["B.Tech", "M.Tech", "Architecture", "Computer Science"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG014",
+    "name": "Indian Institute of Technology Bhilai",
+    "city": "Bhilai",
+    "type": "Engineering College",
+    "management": "Government",
+    "affiliation": "Autonomous/Institute of National Importance",
+    "courses": ["B.Tech", "M.Tech", "Computer Science", "Data Science"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG015",
+    "name": "Chouksey Engineering College",
+    "city": "Bilaspur",
+    "type": "Engineering College",
+    "management": "Private",
+    "affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+    "courses": ["B.Tech", "Computer Science", "Civil", "Mechanical"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG016",
+    "name": "Shri Shankaracharya Technical Campus",
+    "city": "Bhilai",
+    "type": "Engineering College",
+    "management": "Private",
+    "affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+    "courses": ["B.Tech", "MBA", "Computer Science", "Electronics"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG017",
+    "name": "Government Polytechnic",
+    "city": "Raipur",
+    "type": "Polytechnic",
+    "management": "Government",
+    "affiliation": "Technical Education Board/State affiliation",
+    "courses": ["Diploma Engineering", "Computer", "Electrical", "Mechanical"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG018",
+    "name": "Government Polytechnic",
+    "city": "Durg",
+    "type": "Polytechnic",
+    "management": "Government",
+    "affiliation": "Technical Education Board/State affiliation",
+    "courses": ["Diploma Engineering", "Civil", "Electrical", "Mechanical"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG019",
+    "name": "Government Polytechnic",
+    "city": "Bilaspur",
+    "type": "Polytechnic",
+    "management": "Government",
+    "affiliation": "Technical Education Board/State affiliation",
+    "courses": ["Diploma Engineering", "Computer", "Electrical"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG020",
+    "name": "Government Engineering College",
+    "city": "Jagdalpur",
+    "type": "Engineering College",
+    "management": "Government",
+    "affiliation": "Chhattisgarh Swami Vivekanand Technical University",
+    "courses": ["B.Tech", "Civil", "Mechanical", "Electrical"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG021",
+    "name": "Kalinga University",
+    "city": "Naya Raipur",
+    "type": "Private University",
+    "management": "Private",
+    "affiliation": "Kalinga University",
+    "courses": ["Engineering", "Management", "Law", "Design", "Science"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG022",
+    "name": "Amity University Chhattisgarh",
+    "city": "Raipur",
+    "type": "Private University",
+    "management": "Private",
+    "affiliation": "Amity University Chhattisgarh",
+    "courses": ["Engineering", "BBA", "BCA", "Design", "Law", "Management"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG023",
+    "name": "ITM University",
+    "city": "Raipur",
+    "type": "Private University",
+    "management": "Private",
+    "affiliation": "ITM University Raipur",
+    "courses": [
+      "Engineering",
+      "Management",
+      "Design",
+      "Science",
+      "Computer Applications"
+    ],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG024",
+    "name": "MATS University",
+    "city": "Aarang/Raipur",
+    "type": "Private University",
+    "management": "Private",
+    "affiliation": "MATS University",
+    "courses": ["Engineering", "BBA", "BCA", "Law", "Design", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG025",
+    "name": "Shri Rawatpura Sarkar University",
+    "city": "Raipur",
+    "type": "Private University",
+    "management": "Private",
+    "affiliation": "Shri Rawatpura Sarkar University",
+    "courses": ["Engineering", "Management", "Pharmacy", "Arts", "Science"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG026",
+    "name": "OP Jindal University",
+    "city": "Raigarh",
+    "type": "Private University",
+    "management": "Private",
+    "affiliation": "O.P. Jindal University",
+    "courses": ["Engineering", "Management", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG027",
+    "name": "Hidayatullah National Law University",
+    "city": "Naya Raipur",
+    "type": "Law University",
+    "management": "Government",
+    "affiliation": "Hidayatullah National Law University",
+    "courses": ["BA LLB", "LLM", "Legal Studies"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG028",
+    "name": "Government Science College",
+    "city": "Raipur",
+    "type": "Science College",
+    "management": "Government",
+    "affiliation": "Pt. Ravishankar Shukla University",
+    "courses": ["B.Sc", "M.Sc", "Mathematics", "Physics", "Chemistry"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG029",
+    "name": "Government Arts and Commerce College",
+    "city": "Bhatapara",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
+    "courses": ["Arts", "Commerce", "Economics"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG030",
+    "name": "Government College",
+    "city": "Dhamtari",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Pt. Ravishankar Shukla University",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG031",
+    "name": "Government College",
+    "city": "Kawardha",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Hemchand Yadav Vishwavidyalaya/Regional affiliation",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG032",
+    "name": "Government College",
+    "city": "Mahasamund",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Pt. Ravishankar Shukla University",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG033",
+    "name": "Government College",
+    "city": "Korba",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Atal Bihari Vajpayee Vishwavidyalaya/Regional affiliation",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG034",
+    "name": "Government College",
+    "city": "Raigarh",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Shaheed Nandkumar Patel Vishwavidyalaya",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG035",
+    "name": "Government College",
+    "city": "Janjgir-Champa",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Shaheed Nandkumar Patel Vishwavidyalaya",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG036",
+    "name": "Government College",
+    "city": "Kanker",
+    "type": "General Degree College",
+    "management": "Government",
+    "affiliation": "Bastar/Sarguja regional affiliation",
+    "courses": ["Arts", "Science", "Commerce"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG037",
+    "name": "Government Medical College",
+    "city": "Raipur",
+    "type": "Medical College",
+    "management": "Government",
+    "affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+    "courses": ["MBBS", "MD/MS", "Medical Sciences"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG038",
+    "name": "Chhattisgarh Institute of Medical Sciences",
+    "city": "Bilaspur",
+    "type": "Medical College",
+    "management": "Government",
+    "affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+    "courses": ["MBBS", "MD/MS", "Medical Sciences"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG039",
+    "name": "Government Medical College",
+    "city": "Rajnandgaon",
+    "type": "Medical College",
+    "management": "Government",
+    "affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+    "courses": ["MBBS", "Medical Sciences"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG040",
+    "name": "Government Medical College",
+    "city": "Jagdalpur",
+    "type": "Medical College",
+    "management": "Government",
+    "affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+    "courses": ["MBBS", "Medical Sciences"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG041",
+    "name": "Government Dental College",
+    "city": "Raipur",
+    "type": "Dental College",
+    "management": "Government",
+    "affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
+    "courses": ["BDS", "MDS", "Dental Sciences"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG042",
+    "name": "Government Pharmacy College",
+    "city": "Raipur",
+    "type": "Pharmacy College",
+    "management": "Government",
+    "affiliation": "Relevant state technical/university affiliation",
+    "courses": ["B.Pharm", "D.Pharm", "M.Pharm"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG043",
+    "name": "Shri Shankaracharya Institute of Pharmaceutical Sciences",
+    "city": "Bhilai",
+    "type": "Pharmacy College",
+    "management": "Private",
+    "affiliation": "Relevant university/technical affiliation",
+    "courses": ["B.Pharm", "M.Pharm"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG044",
+    "name": "Government Nursing College",
+    "city": "Raipur",
+    "type": "Nursing College",
+    "management": "Government",
+    "affiliation": "Relevant health sciences university",
+    "courses": ["B.Sc Nursing", "M.Sc Nursing", "GNM"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG045",
+    "name": "Government College of Nursing",
+    "city": "Bilaspur",
+    "type": "Nursing College",
+    "management": "Government",
+    "affiliation": "Relevant health sciences university",
+    "courses": ["B.Sc Nursing", "GNM"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG046",
+    "name": "Government College of Agriculture",
+    "city": "Raipur",
+    "type": "Agriculture College",
+    "management": "Government",
+    "affiliation": "Indira Gandhi Krishi Vishwavidyalaya",
+    "courses": [
+      "B.Sc Agriculture",
+      "M.Sc Agriculture",
+      "Agricultural Sciences"
+    ],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG047",
+    "name": "Indira Gandhi Krishi Vishwavidyalaya College",
+    "city": "Raipur",
+    "type": "Agriculture University/College",
+    "management": "Government",
+    "affiliation": "Indira Gandhi Krishi Vishwavidyalaya",
+    "courses": ["Agriculture", "Horticulture", "Agricultural Engineering"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG048",
+    "name": "Government Law College",
+    "city": "Bilaspur",
+    "type": "Law College",
+    "management": "Government",
+    "affiliation": "Atal Bihari Vajpayee Vishwavidyalaya/Relevant affiliation",
+    "courses": ["LLB", "Legal Studies"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG049",
+    "name": "Government College of Fine Arts",
+    "city": "Raipur",
+    "type": "Design and Fine Arts College",
+    "management": "Government",
+    "affiliation": "Relevant state university affiliation",
+    "courses": ["Fine Arts", "Visual Arts", "Applied Arts"],
+    "academicYear": "2025-2026"
+  },
+  {
+    "id": "CG050",
+    "name": "Institute of Hotel Management, Catering Technology and Applied Nutrition",
+    "city": "Raipur",
+    "type": "Hotel Management College",
+    "management": "Government/Institute",
+    "affiliation": "National Council for Hotel Management and Catering Technology",
+    "courses": ["Hotel Management", "Hospitality", "Food Production"],
+    "academicYear": "2025-2026"
+  }
+]

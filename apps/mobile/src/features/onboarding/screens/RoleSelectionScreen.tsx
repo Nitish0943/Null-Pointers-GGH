@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -8,7 +8,7 @@ import type { RootStackParamList } from '../../../app/AppNavigator';
 type Props = NativeStackScreenProps<RootStackParamList, 'RoleSelection'>;
 
 type Role = {
-  id: 'student' | 'parent' | 'counselor';
+  id: 'school_student' | 'college_student' | 'mentor' | 'college';
   title: string;
   description: string;
   icon: string;
@@ -16,21 +16,31 @@ type Role = {
 
 const roles: Role[] = [
   {
-    id: 'student',
-    title: 'I am a student',
-    description: 'Explore your strengths and plan your next step.',
+    id: 'school_student',
+    title: 'I am a school student',
+    description:
+      'Discover your strengths, explore career options, and plan your next academic step.',
     icon: '◎',
   },
   {
-    id: 'parent',
-    title: 'I am a parent or guardian',
-    description: 'Support a learner with trusted academic guidance.',
+    id: 'college_student',
+    title: 'I am a college student',
+    description:
+      'Build your skills, explore careers, and prepare for internships, jobs, and higher studies.',
     icon: '⌂',
   },
   {
-    id: 'counselor',
-    title: 'I am a counselor',
-    description: 'Guide students with a shared view of their journey.',
+    id: 'mentor',
+    title: 'I am a mentor',
+    description:
+      'Guide students and support their academic and career journeys.',
+    icon: '✦',
+  },
+  {
+    id: 'college',
+    title: 'I represent a college or institution',
+    description:
+      'Manage institution information, courses, admissions, and student opportunities.',
     icon: '✦',
   },
 ];
@@ -62,7 +72,11 @@ export function RoleSelectionScreen({ navigation }: Props) {
           </Text>
         </View>
 
-        <View style={styles.roles}>
+        <ScrollView
+          contentContainerStyle={styles.roles}
+          showsVerticalScrollIndicator={false}
+          style={styles.roleScroll}
+        >
           {roles.map((role) => {
             const isSelected = role.id === selectedRole;
             return (
@@ -104,7 +118,7 @@ export function RoleSelectionScreen({ navigation }: Props) {
               </Pressable>
             );
           })}
-        </View>
+        </ScrollView>
 
         <View style={styles.footer}>
           <Text style={styles.localState}>
@@ -117,7 +131,9 @@ export function RoleSelectionScreen({ navigation }: Props) {
             accessibilityLabel="Continue with selected role"
             accessibilityState={{ disabled: !selectedRole }}
             disabled={!selectedRole}
-            onPress={() => navigation.navigate('Login')}
+            onPress={() =>
+              navigation.navigate('Login', { role: selectedRole ?? undefined })
+            }
             style={({ pressed }) => [
               styles.continueButton,
               !selectedRole && styles.continueButtonDisabled,
@@ -183,7 +199,11 @@ const styles = StyleSheet.create({
   },
   roles: {
     gap: 12,
-    marginTop: 32,
+    paddingBottom: 8,
+    paddingTop: 32,
+  },
+  roleScroll: {
+    flex: 1,
   },
   roleCard: {
     alignItems: 'center',
@@ -192,8 +212,8 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     borderWidth: 1,
     flexDirection: 'row',
-    minHeight: 88,
-    padding: 14,
+    minHeight: 118,
+    padding: 16,
   },
   roleCardSelected: {
     backgroundColor: '#E8F3F2',
@@ -255,9 +275,8 @@ const styles = StyleSheet.create({
     width: 10,
   },
   footer: {
-    flex: 1,
-    justifyContent: 'flex-end',
     paddingBottom: 12,
+    paddingTop: 12,
   },
   localState: {
     color: '#7B8D9B',

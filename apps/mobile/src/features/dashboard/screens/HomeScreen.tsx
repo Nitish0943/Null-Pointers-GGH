@@ -8,6 +8,7 @@ import {
   BottomNavigation,
   type PrimaryTab,
 } from '../../../shared/components/navigation/BottomNavigation';
+import { useAuth } from '../../../shared/services/AuthProvider';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 
@@ -18,7 +19,24 @@ const quickActions = [
 ];
 
 export function HomeScreen({ navigation }: Props) {
+  const { profile, user } = useAuth();
   const [selectedAction, setSelectedAction] = useState('');
+  const profileFields = [
+    profile?.displayName || user?.displayName,
+    profile?.studyLevel,
+    profile?.schoolName,
+    profile?.location,
+    profile?.address,
+    profile?.interest,
+  ];
+  const completedProfileFields = profileFields.filter(Boolean).length;
+  const profilePercent = Math.round(
+    (completedProfileFields / profileFields.length) * 100,
+  );
+  const assessmentCompleted = Boolean(profile?.assessmentCompleted);
+  const availableActions = quickActions.filter(
+    (action) => !assessmentCompleted || action.label !== 'Take assessment',
+  );
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -29,7 +47,10 @@ export function HomeScreen({ navigation }: Props) {
         <View style={styles.header}>
           <View>
             <Text style={styles.eyebrow}>STUDENT DASHBOARD</Text>
-            <Text style={styles.greeting}>Good morning, Student</Text>
+            <Text style={styles.greeting}>
+              Good morning,{' '}
+              {profile?.displayName || user?.displayName || 'Student'}
+            </Text>
           </View>
           <Pressable
             accessibilityRole="button"
@@ -47,9 +68,15 @@ export function HomeScreen({ navigation }: Props) {
         <View style={styles.progressCard}>
           <View style={styles.progressCopy}>
             <Text style={styles.progressEyebrow}>YOUR JOURNEY</Text>
-            <Text style={styles.progressTitle}>Build your roadmap</Text>
+            <Text style={styles.progressTitle}>
+              {profilePercent === 100
+                ? 'Your profile is complete'
+                : 'Complete your profile'}
+            </Text>
             <Text style={styles.progressDescription}>
-              Complete your profile to unlock guidance made for you.
+              {profilePercent === 100
+                ? 'Your guidance can now be shaped around your saved details.'
+                : 'Complete your profile to unlock guidance made for you.'}
             </Text>
             <Pressable
               accessibilityRole="button"
@@ -57,22 +84,27 @@ export function HomeScreen({ navigation }: Props) {
               onPress={() => navigation.navigate('StudentProfileSetup')}
               style={styles.progressAction}
             >
-              <Text style={styles.progressActionText}>Continue setup</Text>
+              <Text style={styles.progressActionText}>
+                {profilePercent === 100 ? 'Update profile' : 'Continue setup'}
+              </Text>
               <Text style={styles.progressArrow}>→</Text>
             </Pressable>
           </View>
           <View style={styles.progressRing}>
-            <Text style={styles.progressValue}>40%</Text>
+            <Text style={styles.progressValue}>{profilePercent}%</Text>
             <Text style={styles.progressLabel}>complete</Text>
           </View>
         </View>
 
         <View style={styles.sectionHeader}>
           <Text style={styles.sectionTitle}>Start exploring</Text>
-          <Text style={styles.sectionMeta}>3 ways to begin</Text>
+          <Text style={styles.sectionMeta}>
+            {availableActions.length}{' '}
+            {availableActions.length === 1 ? 'way' : 'ways'} to begin
+          </Text>
         </View>
         <View style={styles.actions}>
-          {quickActions.map((action) => (
+          {availableActions.map((action) => (
             <Pressable
               accessibilityRole="button"
               accessibilityLabel={action.label}
@@ -107,33 +139,52 @@ export function HomeScreen({ navigation }: Props) {
           ))}
         </View>
 
-        <View style={styles.sectionHeader}>
-          <Text style={styles.sectionTitle}>Your next step</Text>
-          <Text style={styles.sectionMeta}>This week</Text>
-        </View>
-        <Pressable
-          accessibilityRole="button"
-          accessibilityLabel="Open career assessment"
-          onPress={() => navigation.navigate('CognitiveAssessmentIntro')}
-          style={({ pressed }) => [
-            styles.assessmentCard,
-            pressed && styles.pressed,
-          ]}
-        >
-          <View style={styles.assessmentIcon}>
-            <Text style={styles.assessmentIconText}>✦</Text>
+        {!assessmentCompleted ? (
+          <>
+            <View style={styles.sectionHeader}>
+              <Text style={styles.sectionTitle}>Your next step</Text>
+              <Text style={styles.sectionMeta}>This week</Text>
+            </View>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel="Open career assessment"
+              onPress={() => navigation.navigate('CognitiveAssessmentIntro')}
+              style={({ pressed }) => [
+                styles.assessmentCard,
+                pressed && styles.pressed,
+              ]}
+            >
+              <View style={styles.assessmentIcon}>
+                <Text style={styles.assessmentIconText}>✦</Text>
+              </View>
+              <View style={styles.assessmentCopy}>
+                <Text style={styles.assessmentEyebrow}>
+                  RECOMMENDED FOR YOU
+                </Text>
+                <Text style={styles.assessmentTitle}>
+                  Understand your strengths
+                </Text>
+                <Text style={styles.assessmentDescription}>
+                  A short assessment can help shape your first roadmap.
+                </Text>
+              </View>
+              <Text style={styles.assessmentArrow}>→</Text>
+            </Pressable>
+          </>
+        ) : (
+          <View style={styles.completedCard}>
+            <Text style={styles.completedIcon}>✓</Text>
+            <View style={styles.assessmentCopy}>
+              <Text style={styles.assessmentEyebrow}>COMPLETED</Text>
+              <Text style={styles.assessmentTitle}>
+                Cognitive assessment complete
+              </Text>
+              <Text style={styles.assessmentDescription}>
+                Your results are saved. Reassessment can be added later.
+              </Text>
+            </View>
           </View>
-          <View style={styles.assessmentCopy}>
-            <Text style={styles.assessmentEyebrow}>RECOMMENDED FOR YOU</Text>
-            <Text style={styles.assessmentTitle}>
-              Understand your strengths
-            </Text>
-            <Text style={styles.assessmentDescription}>
-              A short assessment can help shape your first roadmap.
-            </Text>
-          </View>
-          <Text style={styles.assessmentArrow}>→</Text>
-        </Pressable>
+        )}
         {selectedAction ? (
           <Text style={styles.actionStatus}>
             {selectedAction} is ready for the next feature batch.
@@ -299,6 +350,27 @@ const styles = StyleSheet.create({
     marginTop: 13,
     minHeight: 112,
     padding: 14,
+  },
+  completedCard: {
+    alignItems: 'center',
+    backgroundColor: '#E8F3F2',
+    borderColor: '#B9DDD7',
+    borderRadius: 16,
+    flexDirection: 'row',
+    marginTop: 4,
+    padding: 18,
+  },
+  completedIcon: {
+    alignItems: 'center',
+    backgroundColor: '#0F766E',
+    borderRadius: 22,
+    color: '#FFFFFF',
+    fontSize: 22,
+    height: 44,
+    lineHeight: 44,
+    marginRight: 14,
+    textAlign: 'center',
+    width: 44,
   },
   assessmentIcon: {
     alignItems: 'center',

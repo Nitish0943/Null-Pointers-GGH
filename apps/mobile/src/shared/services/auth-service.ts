@@ -30,11 +30,19 @@ function requireServices() {
 }
 
 export function getAuthErrorMessage(error: unknown): string {
-  if (!(error instanceof Error)) {
+  const authError = error as {
+    code?: unknown;
+    message?: unknown;
+  };
+  const code = typeof authError.code === 'string' ? authError.code : '';
+  const message =
+    typeof authError.message === 'string' ? authError.message : '';
+
+  if (!code && !message) {
     return 'Something went wrong. Try again.';
   }
 
-  switch ((error as { code?: string }).code) {
+  switch (code) {
     case 'auth/invalid-credential':
     case 'auth/wrong-password':
     case 'auth/user-not-found':
@@ -49,11 +57,39 @@ export function getAuthErrorMessage(error: unknown): string {
       return 'Too many attempts. Wait a moment and try again.';
     case 'auth/network-request-failed':
       return 'Network unavailable. Check your connection and try again.';
+    case 'auth/operation-not-allowed':
+      return 'Email and password sign-in is disabled in Firebase. Enable it in Firebase Console under Authentication → Sign-in method.';
+    case 'auth/user-disabled':
+      return 'This account has been disabled. Contact support.';
+    case 'auth/invalid-api-key':
+    case 'auth/api-key-not-valid':
+      return 'The Firebase API key is invalid. Check the mobile Firebase configuration.';
+    case 'auth/app-not-authorized':
+      return 'This app is not authorized for the Firebase project. Check the Firebase app configuration.';
+    case 'auth/unauthorized-domain':
+      return 'This app domain is not authorized in Firebase Authentication settings.';
+    case 'auth/quota-exceeded':
+      return 'Firebase has temporarily limited requests. Try again later.';
+    case 'auth/internal-error':
+      return 'Firebase returned an internal error. Restart the app and try again.';
+    case 'unavailable':
+    case 'failed-precondition':
+      return 'Firebase is temporarily unavailable. Check your connection and try again.';
+    case 'functions/not-found':
+      return 'The assessment function is not deployed. Deploy Firebase Functions, then restart the app.';
+    case 'functions/unauthenticated':
+      return 'Your Firebase session is not available. Sign in again and retry.';
+    case 'functions/failed-precondition':
+      return 'The Gemini assessment service is not configured. Add GEMINI_API_KEY to Firebase Functions.';
     case 'permission-denied':
+    case 'firestore/permission-denied':
       return 'You do not have permission to access this information.';
     default:
-      return error.message.includes('Firebase is not configured')
-        ? error.message
+      if (message.includes('Firebase is not configured')) {
+        return message;
+      }
+      return code
+        ? `Firebase request failed (${code}). Check Firebase Console and try again.`
         : 'We could not complete that request. Try again.';
   }
 }
@@ -74,6 +110,12 @@ function profileFromSnapshot(
     emailVerified: Boolean(data.emailVerified),
     onboardingCompleted: Boolean(data.onboardingCompleted),
     preferredLanguage: String(data.preferredLanguage ?? 'en'),
+    studyLevel: String(data.studyLevel ?? ''),
+    schoolName: String(data.schoolName ?? ''),
+    location: String(data.location ?? ''),
+    address: String(data.address ?? ''),
+    interest: String(data.interest ?? ''),
+    assessmentCompleted: Boolean(data.assessmentCompleted),
     createdAt: data.createdAt,
     updatedAt: data.updatedAt,
   };
@@ -99,6 +141,7 @@ export async function registerUser(
   displayName: string,
   email: string,
   password: string,
+  role: Exclude<UserRole, 'admin'> = 'school_student',
 ) {
   const { auth, db } = requireServices();
   const credential = await createUserWithEmailAndPassword(
@@ -112,7 +155,7 @@ export async function registerUser(
     email: credential.user.email ?? email.trim(),
     displayName: displayName.trim(),
     photoURL: credential.user.photoURL,
-    role: 'student' satisfies UserRole,
+    role,
     emailVerified: credential.user.emailVerified,
     onboardingCompleted: false,
     preferredLanguage: 'en',
@@ -146,8 +189,11 @@ export async function updateUserProfile(
       | 'preferredLanguage'
       | 'onboardingCompleted'
       | 'studyLevel'
+      | 'schoolName'
       | 'location'
+      | 'address'
       | 'interest'
+      | 'assessmentCompleted'
     >
   >,
 ) {
@@ -156,6 +202,10 @@ export async function updateUserProfile(
     ...changes,
     updatedAt: serverTimestamp(),
   });
+}
+
+export async function markAssessmentCompleted(uid: string) {
+  await updateUserProfile(uid, { assessmentCompleted: true });
 }
 
 export async function signOutUser() {

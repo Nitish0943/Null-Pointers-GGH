@@ -3,6 +3,13 @@ import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import type { RootStackParamList } from '../../../app/AppNavigator';
+import { useAuth } from '../../../shared/services/AuthProvider';
+import {
+  getAuthErrorMessage,
+  markAssessmentCompleted,
+} from '../../../shared/services/auth-service';
+import { useEffect, useState } from 'react';
+import { getSavedAssessmentResult } from '../../../shared/services/assessment-service';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'AssessmentResults'>;
 
@@ -28,6 +35,31 @@ const strengths = [
 ];
 
 export function AssessmentResultsScreen({ navigation }: Props) {
+  const { profile, refreshProfile, user } = useAuth();
+  const [saveError, setSaveError] = useState('');
+  const [aiResult, setAiResult] = useState<{
+    summary?: string;
+    strengths?: string[];
+    interestAreas?: string[];
+    careerDirections?: string[];
+  } | null>(null);
+
+  useEffect(() => {
+    if (!user || profile?.assessmentCompleted) {
+      return;
+    }
+    void markAssessmentCompleted(user.uid)
+      .then(refreshProfile)
+      .catch((error: unknown) => setSaveError(getAuthErrorMessage(error)));
+  }, [profile?.assessmentCompleted, refreshProfile, user]);
+
+  useEffect(() => {
+    if (!user) return;
+    void getSavedAssessmentResult(user.uid)
+      .then((result) => setAiResult(result as typeof aiResult))
+      .catch(() => undefined);
+  }, [user]);
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.container}>
@@ -41,6 +73,7 @@ export function AssessmentResultsScreen({ navigation }: Props) {
           >
             <Text style={styles.backArrow}>←</Text>
           </Pressable>
+          {saveError ? <Text style={styles.demoNote}>{saveError}</Text> : null}
           <Text style={styles.headerTitle}>Your results</Text>
           <View style={styles.headerSpacer} />
         </View>
@@ -91,10 +124,22 @@ export function AssessmentResultsScreen({ navigation }: Props) {
             Follow the questions that keep you curious.
           </Text>
           <Text style={styles.guidanceText}>
-            Start by exploring pathways where creativity, problem-solving, and
-            people impact meet.
+            {aiResult?.summary ??
+              'Start by exploring pathways where creativity, problem-solving, and people impact meet.'}
           </Text>
         </View>
+        {aiResult?.careerDirections?.length ? (
+          <View style={styles.guidanceCard}>
+            <Text style={styles.guidanceEyebrow}>
+              CAREER DIRECTIONS TO EXPLORE
+            </Text>
+            {aiResult.careerDirections.map((direction) => (
+              <Text key={direction} style={styles.guidanceText}>
+                • {direction}
+              </Text>
+            ))}
+          </View>
+        ) : null}
 
         <Pressable
           accessibilityRole="button"
