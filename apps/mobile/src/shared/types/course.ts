@@ -1,0 +1,22 @@
+export type CourseRecord = {
+  id: string;
+  institutionId: string;
+  name: string;
+  institutionName: string;
+  degree: string;
+  stream: string | null;
+  specialization: string | null;
+  location: string;
+  city: string;
+  state: string;
+  duration: string | null;
+  fees: number | null;
+  studyMode: string | null;
+  eligibility: string | null;
+  admissionProcess: string | null;
+  applicationDeadline: string | null;
+  accreditation: string | null;
+  officialUrl: string | null;
+  category: string;
+  keywords: string[];
+};

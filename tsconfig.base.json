@@ -7,6 +7,13 @@
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "@mantrix/types": ["./packages/types/src/index.ts"],
+      "@mantrix/shared": ["./packages/shared/src/index.ts"],
+      "@mantrix/validation": ["./packages/validation/src/index.ts"],
+      "@mantrix/firebase": ["./packages/firebase/src/index.ts"],
+      "@mantrix/config": ["./packages/config/src/index.ts"]
+    }
   }
 }

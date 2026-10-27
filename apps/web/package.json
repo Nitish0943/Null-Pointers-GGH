@@ -7,7 +7,7 @@
     "build": "next build",
     "lint": "prettier --check src",
     "typecheck": "tsc --noEmit",
-    "test": "echo \"No web test suite configured yet.\""
+    "test": "node --experimental-strip-types --test ../../test/course-discovery-comparison.test.ts tests/college-features.test.ts"
   },
   "dependencies": {
     "firebase": "^13.1.0",

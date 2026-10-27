@@ -21,11 +21,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Pt. Ravishankar Shukla University",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -42,11 +38,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Pt. Ravishankar Shukla University",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -63,11 +55,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Pt. Ravishankar Shukla University",
-      "course_categories": [
-        "Arts",
-        "Commerce",
-        "Law"
-      ],
+      "course_categories": ["Arts", "Commerce", "Law"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -84,10 +72,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Pt. Ravishankar Shukla University",
-      "course_categories": [
-        "Arts",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -104,11 +89,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Hemchand Yadav Vishwavidyalaya",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -125,10 +106,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Hemchand Yadav Vishwavidyalaya",
-      "course_categories": [
-        "Arts",
-        "Science"
-      ],
+      "course_categories": ["Arts", "Science"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -145,10 +123,7 @@
       "college_type": "Science College",
       "management_type": "Government",
       "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
-      "course_categories": [
-        "Science",
-        "Computer Science"
-      ],
+      "course_categories": ["Science", "Computer Science"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -165,11 +140,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -186,11 +157,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Sant Gahira Guru Vishwavidyalaya",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -207,11 +174,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Shaheed Mahendra Karma Vishwavidyalaya",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -340,12 +303,7 @@
       "college_type": "Engineering College",
       "management_type": "Private",
       "university_affiliation": "Chhattisgarh Swami Vivekanand Technical University",
-      "course_categories": [
-        "B.Tech",
-        "MBA",
-        "Computer Science",
-        "Electronics"
-      ],
+      "course_categories": ["B.Tech", "MBA", "Computer Science", "Electronics"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -406,11 +364,7 @@
       "college_type": "Polytechnic",
       "management_type": "Government",
       "university_affiliation": "Technical Education Board/State affiliation",
-      "course_categories": [
-        "Diploma Engineering",
-        "Computer",
-        "Electrical"
-      ],
+      "course_categories": ["Diploma Engineering", "Computer", "Electrical"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -427,12 +381,7 @@
       "college_type": "Engineering College",
       "management_type": "Government",
       "university_affiliation": "Chhattisgarh Swami Vivekanand Technical University",
-      "course_categories": [
-        "B.Tech",
-        "Civil",
-        "Mechanical",
-        "Electrical"
-      ],
+      "course_categories": ["B.Tech", "Civil", "Mechanical", "Electrical"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -566,12 +515,7 @@
       "college_type": "Private University",
       "management_type": "Private",
       "university_affiliation": "O.P. Jindal University",
-      "course_categories": [
-        "Engineering",
-        "Management",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Engineering", "Management", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -588,11 +532,7 @@
       "college_type": "Law University",
       "management_type": "Government",
       "university_affiliation": "Hidayatullah National Law University",
-      "course_categories": [
-        "BA LLB",
-        "LLM",
-        "Legal Studies"
-      ],
+      "course_categories": ["BA LLB", "LLM", "Legal Studies"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -632,11 +572,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya",
-      "course_categories": [
-        "Arts",
-        "Commerce",
-        "Economics"
-      ],
+      "course_categories": ["Arts", "Commerce", "Economics"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -653,11 +589,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Pt. Ravishankar Shukla University",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -674,11 +606,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Hemchand Yadav Vishwavidyalaya/Regional affiliation",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -695,11 +623,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Pt. Ravishankar Shukla University",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -716,11 +640,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya/Regional affiliation",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -737,11 +657,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Shaheed Nandkumar Patel Vishwavidyalaya",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -758,11 +674,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Shaheed Nandkumar Patel Vishwavidyalaya",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -779,11 +691,7 @@
       "college_type": "General Degree College",
       "management_type": "Government",
       "university_affiliation": "Bastar/Sarguja regional affiliation",
-      "course_categories": [
-        "Arts",
-        "Science",
-        "Commerce"
-      ],
+      "course_categories": ["Arts", "Science", "Commerce"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -800,11 +708,7 @@
       "college_type": "Medical College",
       "management_type": "Government",
       "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
-      "course_categories": [
-        "MBBS",
-        "MD/MS",
-        "Medical Sciences"
-      ],
+      "course_categories": ["MBBS", "MD/MS", "Medical Sciences"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -821,11 +725,7 @@
       "college_type": "Medical College",
       "management_type": "Government",
       "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
-      "course_categories": [
-        "MBBS",
-        "MD/MS",
-        "Medical Sciences"
-      ],
+      "course_categories": ["MBBS", "MD/MS", "Medical Sciences"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -842,10 +742,7 @@
       "college_type": "Medical College",
       "management_type": "Government",
       "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
-      "course_categories": [
-        "MBBS",
-        "Medical Sciences"
-      ],
+      "course_categories": ["MBBS", "Medical Sciences"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -862,10 +759,7 @@
       "college_type": "Medical College",
       "management_type": "Government",
       "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
-      "course_categories": [
-        "MBBS",
-        "Medical Sciences"
-      ],
+      "course_categories": ["MBBS", "Medical Sciences"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -882,11 +776,7 @@
       "college_type": "Dental College",
       "management_type": "Government",
       "university_affiliation": "Pt. Deendayal Upadhyay Memorial Health Sciences and Ayush University",
-      "course_categories": [
-        "BDS",
-        "MDS",
-        "Dental Sciences"
-      ],
+      "course_categories": ["BDS", "MDS", "Dental Sciences"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -903,11 +793,7 @@
       "college_type": "Pharmacy College",
       "management_type": "Government",
       "university_affiliation": "Relevant state technical/university affiliation",
-      "course_categories": [
-        "B.Pharm",
-        "D.Pharm",
-        "M.Pharm"
-      ],
+      "course_categories": ["B.Pharm", "D.Pharm", "M.Pharm"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -924,10 +810,7 @@
       "college_type": "Pharmacy College",
       "management_type": "Private",
       "university_affiliation": "Relevant university/technical affiliation",
-      "course_categories": [
-        "B.Pharm",
-        "M.Pharm"
-      ],
+      "course_categories": ["B.Pharm", "M.Pharm"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -944,11 +827,7 @@
       "college_type": "Nursing College",
       "management_type": "Government",
       "university_affiliation": "Relevant health sciences university",
-      "course_categories": [
-        "B.Sc Nursing",
-        "M.Sc Nursing",
-        "GNM"
-      ],
+      "course_categories": ["B.Sc Nursing", "M.Sc Nursing", "GNM"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -965,10 +844,7 @@
       "college_type": "Nursing College",
       "management_type": "Government",
       "university_affiliation": "Relevant health sciences university",
-      "course_categories": [
-        "B.Sc Nursing",
-        "GNM"
-      ],
+      "course_categories": ["B.Sc Nursing", "GNM"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -1027,10 +903,7 @@
       "college_type": "Law College",
       "management_type": "Government",
       "university_affiliation": "Atal Bihari Vajpayee Vishwavidyalaya/Relevant affiliation",
-      "course_categories": [
-        "LLB",
-        "Legal Studies"
-      ],
+      "course_categories": ["LLB", "Legal Studies"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
@@ -1047,11 +920,7 @@
       "college_type": "Design and Fine Arts College",
       "management_type": "Government",
       "university_affiliation": "Relevant state university affiliation",
-      "course_categories": [
-        "Fine Arts",
-        "Visual Arts",
-        "Applied Arts"
-      ],
+      "course_categories": ["Fine Arts", "Visual Arts", "Applied Arts"],
       "academic_year": "2025-2026",
       "enrollment": {
         "total_students": null,
