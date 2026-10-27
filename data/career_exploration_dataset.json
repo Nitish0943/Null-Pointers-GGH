@@ -1,0 +1,649 @@
+{
+  "dataset_name": "Career Exploration Dataset",
+  "country": "India",
+  "created_date": "2026-10-23",
+  "description": "Career roles grouped into Tech, Non-Tech and Semi-Tech categories, including job descriptions, required skills, indicative salary ranges and future roadmaps.",
+  "salary_disclaimer": "Package ranges are broad indicative annual CTC estimates in India, not verified statistical medians for every city or experience level and not guaranteed offers. High-package figures represent upper-end potential, not a maximum salary.",
+  "categories": [
+    {
+      "name": "Tech",
+      "description": "Careers centred on software, computing, data, infrastructure and technical systems.",
+      "roles": [
+        {
+          "category": "Tech",
+          "title": "Software Developer",
+          "job_description": "Builds, tests and maintains software applications and APIs.",
+          "required_skills": [
+            "Java or Python",
+            "Data structures and algorithms",
+            "Git",
+            "SQL",
+            "Testing"
+          ],
+          "indicative_median_package_inr_lpa": "6–12",
+          "high_package_potential_inr_lpa": "25–60+",
+          "future_roadmap": [
+            "Learn programming and DSA",
+            "Build 3 projects",
+            "Get an internship",
+            "Start as a junior developer",
+            "Progress to senior developer, lead or architect"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Frontend Developer",
+          "job_description": "Creates user-facing websites and web interfaces.",
+          "required_skills": [
+            "HTML",
+            "CSS",
+            "JavaScript or TypeScript",
+            "React",
+            "Accessibility"
+          ],
+          "indicative_median_package_inr_lpa": "7–12",
+          "high_package_potential_inr_lpa": "20–45+",
+          "future_roadmap": [
+            "Learn HTML, CSS and JavaScript",
+            "Learn React",
+            "Build a portfolio",
+            "Get an internship",
+            "Progress to senior or staff engineer"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Backend Developer",
+          "job_description": "Develops server logic, databases, APIs and authentication.",
+          "required_skills": [
+            "Java, Python or Node.js",
+            "SQL",
+            "API design",
+            "Security"
+          ],
+          "indicative_median_package_inr_lpa": "7–13",
+          "high_package_potential_inr_lpa": "25–50+",
+          "future_roadmap": [
+            "Learn a backend language",
+            "Learn SQL and API design",
+            "Build and deploy projects",
+            "Start as a junior backend developer",
+            "Progress to senior developer or architect"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Full-Stack Developer",
+          "job_description": "Builds both frontend interfaces and backend services.",
+          "required_skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Backend language",
+            "SQL",
+            "Deployment"
+          ],
+          "indicative_median_package_inr_lpa": "6–12",
+          "high_package_potential_inr_lpa": "20–45+",
+          "future_roadmap": [
+            "Build an end-to-end app",
+            "Learn testing and deployment",
+            "Get an internship",
+            "Work as a full-stack engineer",
+            "Progress to tech lead"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Data Analyst",
+          "job_description": "Turns raw data into reports, dashboards and recommendations.",
+          "required_skills": [
+            "Excel",
+            "SQL",
+            "Statistics",
+            "Power BI or Tableau",
+            "Communication"
+          ],
+          "indicative_median_package_inr_lpa": "5–10",
+          "high_package_potential_inr_lpa": "15–25+",
+          "future_roadmap": [
+            "Learn Excel and SQL",
+            "Learn statistics",
+            "Create dashboards",
+            "Get an analyst internship",
+            "Progress to senior analyst or analytics lead"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Data Scientist",
+          "job_description": "Uses statistics and machine learning to solve predictive problems.",
+          "required_skills": [
+            "Python",
+            "Statistics",
+            "SQL",
+            "Machine learning",
+            "Experimentation"
+          ],
+          "indicative_median_package_inr_lpa": "8–15",
+          "high_package_potential_inr_lpa": "25–50+",
+          "future_roadmap": [
+            "Learn mathematics, statistics and Python",
+            "Build ML projects",
+            "Get an internship",
+            "Work as a data scientist",
+            "Progress to senior or applied scientist"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Machine Learning Engineer",
+          "job_description": "Builds and deploys machine-learning models in production.",
+          "required_skills": [
+            "Python",
+            "Machine learning",
+            "Model evaluation",
+            "APIs",
+            "Docker",
+            "Cloud and MLOps"
+          ],
+          "indicative_median_package_inr_lpa": "8–16",
+          "high_package_potential_inr_lpa": "30–60+",
+          "future_roadmap": [
+            "Learn Python and mathematics",
+            "Build ML foundations",
+            "Deploy models",
+            "Learn cloud and MLOps",
+            "Progress to senior engineer or architect"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Cybersecurity Analyst",
+          "job_description": "Monitors threats, investigates incidents and strengthens systems.",
+          "required_skills": [
+            "Networking",
+            "Linux",
+            "SIEM",
+            "Incident response",
+            "Scripting"
+          ],
+          "indicative_median_package_inr_lpa": "6–12",
+          "high_package_potential_inr_lpa": "20–40+",
+          "future_roadmap": [
+            "Learn networking and Linux",
+            "Practice in security labs",
+            "Get a SOC internship",
+            "Work as an analyst",
+            "Progress to incident responder or security engineer"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Cloud / DevOps Engineer",
+          "job_description": "Automates deployment and manages cloud infrastructure and reliability.",
+          "required_skills": [
+            "Linux",
+            "Networking",
+            "AWS, Azure or GCP",
+            "Docker",
+            "Kubernetes",
+            "CI/CD"
+          ],
+          "indicative_median_package_inr_lpa": "7–14",
+          "high_package_potential_inr_lpa": "25–50+",
+          "future_roadmap": [
+            "Learn Linux and networking",
+            "Learn cloud platforms",
+            "Practice CI/CD and containers",
+            "Build projects",
+            "Progress to DevOps engineer, SRE or platform lead"
+          ]
+        },
+        {
+          "category": "Tech",
+          "title": "Mobile App Developer",
+          "job_description": "Builds Android, iOS or cross-platform applications.",
+          "required_skills": [
+            "Kotlin or Java",
+            "Swift or Flutter",
+            "APIs",
+            "UI design",
+            "Debugging"
+          ],
+          "indicative_median_package_inr_lpa": "6–12",
+          "high_package_potential_inr_lpa": "20–40+",
+          "future_roadmap": [
+            "Choose a platform",
+            "Build apps",
+            "Publish a portfolio",
+            "Get an internship",
+            "Progress to senior developer or architect"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Non-Tech",
+      "description": "Careers centred on business, finance, people, communication, law, education and professional services.",
+      "roles": [
+        {
+          "category": "Non-Tech",
+          "title": "Chartered Accountant (CA)",
+          "job_description": "Works in audit, taxation, accounting, reporting and financial advisory.",
+          "required_skills": [
+            "Accounting",
+            "Tax law",
+            "Excel",
+            "Analysis",
+            "Ethics"
+          ],
+          "indicative_median_package_inr_lpa": "8–14",
+          "high_package_potential_inr_lpa": "25–50+",
+          "future_roadmap": [
+            "Follow the ICAI Foundation and Intermediate pathway",
+            "Complete articleship",
+            "Clear CA Final",
+            "Specialise in audit, tax or finance"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "Financial Analyst",
+          "job_description": "Analyses financial statements, budgets and business performance.",
+          "required_skills": [
+            "Excel",
+            "Accounting",
+            "Financial modelling",
+            "Valuation"
+          ],
+          "indicative_median_package_inr_lpa": "5–10",
+          "high_package_potential_inr_lpa": "18–35+",
+          "future_roadmap": [
+            "Earn a relevant degree",
+            "Learn Excel and modelling",
+            "Get an internship",
+            "Start as an analyst",
+            "Progress to senior analyst or finance manager"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "HR Specialist",
+          "job_description": "Supports recruitment, onboarding, employee relations and HR operations.",
+          "required_skills": [
+            "Communication",
+            "Interviewing",
+            "HR policy",
+            "Excel or HRIS"
+          ],
+          "indicative_median_package_inr_lpa": "4–8",
+          "high_package_potential_inr_lpa": "15–30+",
+          "future_roadmap": [
+            "Earn a degree",
+            "Get an HR internship",
+            "Start as an HR executive",
+            "Progress to HR business partner, talent lead or manager"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "Marketing Executive / Manager",
+          "job_description": "Plans campaigns, understands customers and measures results.",
+          "required_skills": [
+            "Writing",
+            "Market research",
+            "Campaign planning",
+            "Analytics"
+          ],
+          "indicative_median_package_inr_lpa": "4–9 (entry-level)",
+          "high_package_potential_inr_lpa": "20–40+",
+          "future_roadmap": [
+            "Learn marketing basics",
+            "Build a portfolio or run campaigns",
+            "Get an internship",
+            "Start as an executive",
+            "Progress to specialist, brand or growth manager"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "Sales / Business Development Executive",
+          "job_description": "Finds customers, manages leads, presents offers and closes deals.",
+          "required_skills": [
+            "Communication",
+            "Negotiation",
+            "CRM",
+            "Product knowledge"
+          ],
+          "indicative_median_package_inr_lpa": "4–9 (variable pay varies)",
+          "high_package_potential_inr_lpa": "20–50+ including variable pay",
+          "future_roadmap": [
+            "Learn product knowledge",
+            "Practice prospecting",
+            "Get an internship",
+            "Start as an executive",
+            "Progress to account manager or sales leader"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "Lawyer / Legal Associate",
+          "job_description": "Researches law, drafts documents and advises clients.",
+          "required_skills": [
+            "Legal research",
+            "Writing",
+            "Argumentation",
+            "Attention to detail",
+            "Ethics"
+          ],
+          "indicative_median_package_inr_lpa": "4–10",
+          "high_package_potential_inr_lpa": "20–50+ in select roles",
+          "future_roadmap": [
+            "Complete a recognised LLB pathway",
+            "Gain internships",
+            "Complete applicable bar enrolment",
+            "Work as an associate",
+            "Specialise or move to in-house counsel"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "Teacher / Educator",
+          "job_description": "Plans lessons, teaches concepts and assesses learning.",
+          "required_skills": [
+            "Subject mastery",
+            "Pedagogy",
+            "Communication",
+            "Classroom management"
+          ],
+          "indicative_median_package_inr_lpa": "3–7",
+          "high_package_potential_inr_lpa": "10–20+",
+          "future_roadmap": [
+            "Earn a relevant degree",
+            "Complete required training and eligibility tests",
+            "Begin teaching",
+            "Progress to senior teacher, coordinator or principal"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "Psychologist / Counsellor",
+          "job_description": "Supports clients through assessment and counselling within professional scope.",
+          "required_skills": [
+            "Psychology",
+            "Active listening",
+            "Ethics",
+            "Assessment",
+            "Report writing"
+          ],
+          "indicative_median_package_inr_lpa": "3–7",
+          "high_package_potential_inr_lpa": "12–25+",
+          "future_roadmap": [
+            "Earn a psychology degree",
+            "Complete postgraduate or supervised training as required",
+            "Practise within scope",
+            "Develop a specialisation"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "Journalist / Content Writer",
+          "job_description": "Researches stories or creates accurate content for media and organisations.",
+          "required_skills": [
+            "Writing",
+            "Research",
+            "Interviewing",
+            "Fact-checking",
+            "Editing"
+          ],
+          "indicative_median_package_inr_lpa": "3–7",
+          "high_package_potential_inr_lpa": "12–25+",
+          "future_roadmap": [
+            "Build a writing portfolio",
+            "Publish work or get an internship",
+            "Work as a writer or reporter",
+            "Progress to editor or content strategist"
+          ]
+        },
+        {
+          "category": "Non-Tech",
+          "title": "Operations / Project Coordinator",
+          "job_description": "Coordinates timelines, resources, processes and delivery.",
+          "required_skills": [
+            "Planning",
+            "Excel",
+            "Communication",
+            "Process mapping",
+            "Risk tracking"
+          ],
+          "indicative_median_package_inr_lpa": "5–10",
+          "high_package_potential_inr_lpa": "18–35+",
+          "future_roadmap": [
+            "Learn project tools and process basics",
+            "Start as a coordinator",
+            "Take ownership of projects",
+            "Progress to project or operations manager"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Semi-Tech",
+      "description": "Roles combining technology with business, design, operations, healthcare or another domain. Semi-Tech is a useful grouping, not a standard official occupational classification.",
+      "roles": [
+        {
+          "category": "Semi-Tech",
+          "title": "UI/UX Designer",
+          "job_description": "Researches users and designs usable interfaces and prototypes.",
+          "required_skills": [
+            "Figma",
+            "User research",
+            "Wireframes",
+            "Prototyping",
+            "Accessibility"
+          ],
+          "indicative_median_package_inr_lpa": "6–12",
+          "high_package_potential_inr_lpa": "20–40+",
+          "future_roadmap": [
+            "Learn design principles",
+            "Learn Figma and create case studies",
+            "Run usability tests",
+            "Start as a junior designer",
+            "Progress to product design lead"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "Business Analyst",
+          "job_description": "Turns business needs into requirements, workflows and measurable solutions.",
+          "required_skills": [
+            "Requirements gathering",
+            "SQL or Excel",
+            "Process mapping",
+            "Documentation",
+            "Communication"
+          ],
+          "indicative_median_package_inr_lpa": "6–12",
+          "high_package_potential_inr_lpa": "20–40+",
+          "future_roadmap": [
+            "Learn business processes, Excel and SQL",
+            "Write sample requirements",
+            "Get an internship",
+            "Work as a business analyst",
+            "Progress to senior BA or product lead"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "Product Manager",
+          "job_description": "Defines product problems, prioritises features and aligns teams.",
+          "required_skills": [
+            "User research",
+            "Prioritisation",
+            "Analytics",
+            "Roadmaps",
+            "Technical literacy"
+          ],
+          "indicative_median_package_inr_lpa": "12–23",
+          "high_package_potential_inr_lpa": "35–70+",
+          "future_roadmap": [
+            "Start in engineering, design, business analysis or support",
+            "Learn metrics and product discovery",
+            "Own a feature",
+            "Move into product management",
+            "Progress to senior or group product manager"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "Digital Marketing Specialist",
+          "job_description": "Runs SEO, paid ads, social campaigns and conversion optimisation.",
+          "required_skills": [
+            "SEO",
+            "Advertising platforms",
+            "Analytics",
+            "Content",
+            "Experimentation"
+          ],
+          "indicative_median_package_inr_lpa": "4–9",
+          "high_package_potential_inr_lpa": "18–35+",
+          "future_roadmap": [
+            "Learn SEO and ads",
+            "Run measurable projects",
+            "Build a portfolio",
+            "Work as a specialist",
+            "Progress to growth or performance manager"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "Technical Recruiter",
+          "job_description": "Sources and evaluates candidates for technical roles.",
+          "required_skills": [
+            "Communication",
+            "Sourcing tools",
+            "Boolean search",
+            "ATS",
+            "Understanding of technical roles"
+          ],
+          "indicative_median_package_inr_lpa": "4–8",
+          "high_package_potential_inr_lpa": "15–30+",
+          "future_roadmap": [
+            "Learn role basics and sourcing",
+            "Get a recruiter internship",
+            "Work as a technical recruiter",
+            "Progress to talent partner or lead"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "IT Support / Systems Administrator",
+          "job_description": "Resolves device, account, network and system issues.",
+          "required_skills": [
+            "Windows or Linux",
+            "Troubleshooting",
+            "Networking",
+            "Ticketing",
+            "Security"
+          ],
+          "indicative_median_package_inr_lpa": "3.5–7",
+          "high_package_potential_inr_lpa": "12–25+",
+          "future_roadmap": [
+            "Learn IT fundamentals",
+            "Build a home lab",
+            "Start at a helpdesk",
+            "Progress to systems administrator",
+            "Move toward cloud, security or network engineering"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "QA / Software Test Engineer",
+          "job_description": "Tests software quality using manual and automated testing.",
+          "required_skills": [
+            "Test design",
+            "Bug reporting",
+            "SQL",
+            "API testing",
+            "Selenium or Playwright"
+          ],
+          "indicative_median_package_inr_lpa": "5–10",
+          "high_package_potential_inr_lpa": "18–35+",
+          "future_roadmap": [
+            "Learn testing fundamentals",
+            "Build API and automation projects",
+            "Get a QA role",
+            "Progress to SDET",
+            "Progress to QA architect"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "Healthcare Informatics Specialist",
+          "job_description": "Connects clinical workflows with health information systems and data quality.",
+          "required_skills": [
+            "Healthcare workflows",
+            "Privacy",
+            "Data",
+            "SQL",
+            "EHR systems",
+            "Communication"
+          ],
+          "indicative_median_package_inr_lpa": "4–9",
+          "high_package_potential_inr_lpa": "15–30+",
+          "future_roadmap": [
+            "Build a health or IT foundation",
+            "Learn clinical data and privacy",
+            "Get an internship",
+            "Work as an analyst",
+            "Progress to implementation or product lead"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "Supply Chain / Logistics Analyst",
+          "job_description": "Improves inventory, purchasing, transport and delivery using data.",
+          "required_skills": [
+            "Excel or SQL",
+            "Forecasting",
+            "ERP or SAP",
+            "Analytics",
+            "Vendor coordination"
+          ],
+          "indicative_median_package_inr_lpa": "5–10",
+          "high_package_potential_inr_lpa": "18–35+",
+          "future_roadmap": [
+            "Learn operations and analytics",
+            "Build ERP or SQL projects",
+            "Work as an analyst",
+            "Progress to planning or procurement manager",
+            "Progress to supply chain head"
+          ]
+        },
+        {
+          "category": "Semi-Tech",
+          "title": "Technical Sales / Solutions Engineer",
+          "job_description": "Demonstrates technical products and helps customers implement solutions.",
+          "required_skills": [
+            "Technical fundamentals",
+            "Demonstrations",
+            "Presentations",
+            "Troubleshooting",
+            "Negotiation"
+          ],
+          "indicative_median_package_inr_lpa": "6–12 plus variable pay",
+          "high_package_potential_inr_lpa": "25–50+ total compensation",
+          "future_roadmap": [
+            "Learn a product domain",
+            "Build demos and labs",
+            "Start in a solutions role",
+            "Progress to senior solutions engineer",
+            "Progress to solutions architect or lead"
+          ]
+        }
+      ]
+    }
+  ]
+}

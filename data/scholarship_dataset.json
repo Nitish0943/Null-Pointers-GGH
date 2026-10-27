@@ -1,0 +1,158 @@
+{
+  "dataset_name": "Scholarship Dataset",
+  "country": "India",
+  "created_date": "2026-10-23",
+  "description": "Scholarship schemes for students in India, with eligibility, commonly required documents, application-period guidance and official portals.",
+  "application_deadline_disclaimer": "Application dates can change and eligibility depends on current official scheme rules. Verify live deadlines and guidelines before applying.",
+  "scholarships": [
+    {
+      "name": "PM-USP Central Sector Scheme of Scholarship for College and University Students (CSSS)",
+      "eligibility": "Eligible meritorious students entering a regular recognised degree, meeting Class XII board-performance and family-income conditions; fresh and renewal rules differ.",
+      "commonly_required_documents": [
+        "Class XII marksheet",
+        "Admission or enrolment proof",
+        "Income certificate",
+        "Identity proof and OTR where required",
+        "Bank details",
+        "Other portal-requested documents"
+      ],
+      "2026_27_application_period": "Renewal applications currently listed through 31 October 2026; check whether fresh applications are open for your case.",
+      "official_portal": "https://scholarships.gov.in/"
+    },
+    {
+      "name": "AICTE Pragati Scholarship",
+      "eligibility": "Eligible girl students admitted to AICTE-approved technical diploma or degree programmes, subject to current scheme conditions.",
+      "commonly_required_documents": [
+        "Admission letter",
+        "Qualifying marksheet",
+        "Income certificate",
+        "Identity proof and OTR where required",
+        "Bank details",
+        "Required declarations"
+      ],
+      "2026_27_application_period": "NSP lists applications from 1 June to 31 October 2026; verify live scheme entry and institute-verification deadlines.",
+      "official_portal": "https://scholarships.gov.in/"
+    },
+    {
+      "name": "AICTE Saksham Scholarship",
+      "eligibility": "Eligible students with benchmark disabilities enrolled in AICTE-approved technical diploma or degree programmes, subject to current rules.",
+      "commonly_required_documents": [
+        "Disability certificate or UDID if required",
+        "Admission proof",
+        "Marksheet",
+        "Income certificate",
+        "Identity proof and OTR where required",
+        "Bank details"
+      ],
+      "2026_27_application_period": "NSP lists applications from 1 June to 31 October 2026; verify the current entry.",
+      "official_portal": "https://scholarships.gov.in/"
+    },
+    {
+      "name": "AICTE Swanath Scholarship",
+      "eligibility": "Eligible students in approved technical programmes who meet scheme-defined circumstances, such as specified orphan or parent-death categories.",
+      "commonly_required_documents": [
+        "Admission proof",
+        "Marksheet",
+        "Identity proof and OTR where required",
+        "Bank details",
+        "Proof of qualifying circumstance",
+        "Scheme forms"
+      ],
+      "2026_27_application_period": "NSP lists applications from 1 June to 31 October 2026; verify exact category and deadline.",
+      "official_portal": "https://scholarships.gov.in/"
+    },
+    {
+      "name": "Top Class Education for SC Students",
+      "eligibility": "Eligible SC students in prescribed full-time courses at institutions on the notified list, subject to current income and other conditions.",
+      "commonly_required_documents": [
+        "SC certificate",
+        "Income certificate",
+        "Admission proof",
+        "Marksheets",
+        "Fee details",
+        "Identity proof and OTR where required",
+        "Bank details"
+      ],
+      "2026_27_application_period": "NSP currently lists 31 October 2026 as closing date; confirm scheme entry and eligible institution.",
+      "official_portal": "https://socialjustice.gov.in/schemes/27"
+    },
+    {
+      "name": "Post-Matric Scholarship for SC/ST/OBC Students",
+      "eligibility": "Eligible students in post-matric education under the relevant state or central scheme, meeting category, income, domicile and course conditions.",
+      "commonly_required_documents": [
+        "Category certificate",
+        "Income certificate",
+        "Marksheet",
+        "Admission or bonafide proof",
+        "Fee receipt",
+        "Bank details",
+        "Domicile or hostel proof if required"
+      ],
+      "2026_27_application_period": "State and category deadlines vary. Chhattisgarh applicants should check the current state notification and portal.",
+      "official_portal": "https://schoolscholarship.cg.nic.in/"
+    },
+    {
+      "name": "PM YASASVI Post-Matric Scholarship for OBC, EBC and DNT Students",
+      "eligibility": "Eligible students meeting current category, income, course and state or portal rules.",
+      "commonly_required_documents": [
+        "Category certificate",
+        "Income certificate",
+        "Marksheet",
+        "Admission proof",
+        "Fee receipt",
+        "Identity proof and OTR where required",
+        "Bank details"
+      ],
+      "2026_27_application_period": "Do not assume one national deadline; check the live NSP and state listing.",
+      "official_portal": "https://scholarships.gov.in/"
+    },
+    {
+      "name": "National Fellowship and Scholarship for Higher Education of ST Students",
+      "eligibility": "Eligible ST students under the relevant higher-education scholarship or research-fellowship component.",
+      "commonly_required_documents": [
+        "ST certificate",
+        "Marksheets",
+        "Admission or registration proof",
+        "Identity proof and OTR where required",
+        "Bank details",
+        "Research details if relevant"
+      ],
+      "2026_27_application_period": "Check the current Ministry or NSP notice; fellowship and scholarship components may have different schedules.",
+      "official_portal": "https://tribal.nic.in/ScholarshiP.aspx"
+    }
+  ],
+  "common_document_checklist": [
+    "Identity proof or Aadhaar where accepted and NSP OTR where required",
+    "Previous examination marksheets",
+    "Current admission letter or bonafide certificate",
+    "Family income certificate",
+    "Bank account or passbook details",
+    "Category or caste certificate where applicable",
+    "Disability certificate or UDID where applicable",
+    "Domicile certificate where required",
+    "Fee receipt or fee structure if requested",
+    "Proof of special eligible circumstance where applicable"
+  ],
+  "official_links": [
+    {
+      "name": "National Scholarship Portal — Students",
+      "url": "https://scholarships.gov.in/"
+    },
+    {
+      "name": "National Scholarship Portal — All Scholarships",
+      "url": "https://scholarships.gov.in/"
+    },
+    {
+      "name": "Post-Matric Scholarship portal for Chhattisgarh",
+      "url": "https://schoolscholarship.cg.nic.in/"
+    },
+    {
+      "name": "Ministry of Social Justice — Top Class Education for SC Students",
+      "url": "https://socialjustice.gov.in/schemes/27"
+    },
+    {
+      "name": "Ministry of Tribal Affairs — Scholarship/Fellowship information",
+      "url": "https://tribal.nic.in/ScholarshiP.aspx"
+    }
+  ]
+}

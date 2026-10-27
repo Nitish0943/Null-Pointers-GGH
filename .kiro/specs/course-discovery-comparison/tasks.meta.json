@@ -1,0 +1,464 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create `apps/mobile/src/shared/types/course.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738359136
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738378762
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792740538482
+      }
+    ],
+    "1.2 Create `apps/mobile/src/shared/types/institution.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738359424
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738386306
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792740544817
+      }
+    ],
+    "1.3 Create `apps/mobile/src/shared/types/scholarship.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738359580
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738391052
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792740551529
+      }
+    ],
+    "1.4 Create `apps/mobile/src/shared/types/saved-course.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738359761
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738396355
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792740557826
+      }
+    ],
+    "2.1 Create `apps/mobile/src/features/courses/data/normalise-courses.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738359954
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792740564578
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744198741
+      }
+    ],
+    "2.5 Create `apps/mobile/src/features/colleges/data/normalise-institutions.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738360110
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792740570813
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744205206
+      }
+    ],
+    "2.6 Create `apps/mobile/src/features/courses/data/course-catalog.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738360255
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744211520
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744529698
+      }
+    ],
+    "2.7 Create `apps/mobile/src/features/courses/data/scholarship-catalog.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738360401
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744535753
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744615037
+      }
+    ],
+    "3.1 Create `apps/mobile/src/features/courses/services/course-service.ts` — pure functions": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738360542
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744634520
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745067117
+      }
+    ],
+    "3.5 Add Firestore functions to `course-service.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738360821
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745073607
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745098140
+      }
+    ],
+    "4.1 Create `apps/mobile/src/features/colleges/services/institution-service.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738360958
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744640791
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745105175
+      }
+    ],
+    "5.1 Create `apps/mobile/src/shared/services/scholarship-service.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738361104
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744647005
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745111482
+      }
+    ],
+    "6.1 Create `apps/mobile/src/features/courses/context/ComparisonContext.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738361243
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744653207
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745117907
+      }
+    ],
+    "7. Checkpoint — verify foundation": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738361419
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745124825
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745153908
+      }
+    ],
+    "8.1 Create `apps/mobile/src/shared/components/cards/CourseCard.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738361573
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745160606
+      }
+    ],
+    "9.1 Create `apps/mobile/src/shared/components/cards/InstitutionCard.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738361729
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745167072
+      }
+    ],
+    "10.1 Create `apps/mobile/src/shared/components/cards/ScholarshipChip.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738361913
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745173336
+      }
+    ],
+    "11.1 Create `apps/mobile/src/shared/components/ui/ComparisonBadge.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738362149
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745180466
+      }
+    ],
+    "12.1 Create `apps/mobile/src/shared/components/feedback/LoadingSkeleton.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738362341
+      },
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745186962
+      }
+    ],
+    "13. Checkpoint — verify shared components": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738362485
+      }
+    ],
+    "14.1 Replace hardcoded data and add hook + service integration": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738362653
+      }
+    ],
+    "14.2 Add Save and Add-to-Compare actions to `CourseDiscoveryScreen`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738362805
+      }
+    ],
+    "15.1 Replace hardcoded data with `getCourseById` and display all `CourseRecord` fields": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738362991
+      }
+    ],
+    "15.2 Add related courses, similar courses, and scholarship sections": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738363142
+      }
+    ],
+    "15.3 Add Save toggle and Add-to-Compare button": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738363386
+      }
+    ],
+    "16.1 Replace hardcoded data with `ComparisonContext` basket and implement comparison table": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738363567
+      }
+    ],
+    "16.2 Add \"Clear all\" dialog and scholarship section to `CourseComparisonScreen`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738363714
+      }
+    ],
+    "17.1 Create `apps/mobile/src/features/colleges/screens/InstitutionDiscoveryScreen.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738363861
+      }
+    ],
+    "18.1 Create `apps/mobile/src/features/colleges/screens/InstitutionDetailsScreen.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738364004
+      }
+    ],
+    "19.1 Create `apps/mobile/src/features/courses/screens/SavedCoursesScreen.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738364162
+      }
+    ],
+    "20. Checkpoint — verify all screens": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738364401
+      }
+    ],
+    "21.1 Add new route types and screen registrations to `apps/mobile/src/app/AppNavigator.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738364642
+      }
+    ],
+    "21.2 Wrap `Stack.Navigator` with `ComparisonProvider`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738364853
+      }
+    ],
+    "22.1 Replace quick-action entries in `apps/mobile/src/features/dashboard/screens/HomeScreen.tsx`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738365138
+      }
+    ],
+    "23.1 Add `scholarships` collection rule to `firebase/firestore/firestore.rules`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738365316
+      }
+    ],
+    "24. Final checkpoint — full integration verification": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792738365517
+      }
+    ],
+    "1. Create TypeScript domain types": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792740557986
+      }
+    ],
+    "2. Create normalisation layer": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792744615189
+      }
+    ],
+    "3. Create `course-service.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745098289
+      }
+    ],
+    "4. Create `institution-service.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745105279
+      }
+    ],
+    "5. Create `scholarship-service.ts`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745111639
+      }
+    ],
+    "6. Create `ComparisonContext`": [
+      {
+        "executionId": "d21f9400-4e24-4d0c-ab03-37939d2a3fe1",
+        "chatSessionId": "sess_32ff22ea-79ca-4c0a-8e3b-837ac1ad3c16",
+        "timestamp": 1792745118038
+      }
+    ]
+  }
+}

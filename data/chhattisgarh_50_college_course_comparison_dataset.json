@@ -1,0 +1,2080 @@
+{
+  "dataset_name": "Chhattisgarh 50-College Course Comparison Dataset",
+  "version": "2.0",
+  "state_scope": "Chhattisgarh, India only",
+  "record_count": 50,
+  "purpose": "Compare course options associated with 50 colleges/universities in Chhattisgarh by course name, typical duration, career opportunities and real-life career examples.",
+  "fields_explained": {
+    "college_name": "Institution name",
+    "location_in_chhattisgarh": "City/district/location within Chhattisgarh",
+    "management_type": "Government/private/institute/university category",
+    "courses_for_comparison": "Course comparisons associated with the institution's broad discipline",
+    "typical_duration": "Typical duration; may vary by current rules and program structure",
+    "career_opportunities": "Possible career paths, not guaranteed outcomes",
+    "real_life_example": "Sourced illustration where possible; clearly labels when course-specific alumni evidence is not verified"
+  },
+  "quality_and_scope_notes": [
+    "Contains 50 institution records located in Chhattisgarh.",
+    "The institution list combines official-directory names and a starter compilation; verify exact official name, current operation, affiliation, and course availability.",
+    "Course options shown by broad discipline are a comparison template and must not be interpreted as confirmation that every listed course is currently offered at that exact college.",
+    "No invented college-specific placement rates, salary figures, or student enrollment counts are included.",
+    "Real-life examples are carefully caveated; most examples are field-level rather than institution-specific because reliable alumni-course links were not available for every program."
+  ],
+  "source_references": [
+    {
+      "name": "CSVTU official website and affiliated institute listings",
+      "url": "https://csvtu.ac.in/",
+      "supports": "Technical institutions and pharmacy/polytechnic institute names."
+    },
+    {
+      "name": "CSVTU university teaching programmes",
+      "url": "https://csvtu.ac.in/university-teaching/",
+      "supports": "Examples of technical and pharmacy programme types."
+    },
+    {
+      "name": "Durg district government college directory",
+      "url": "https://durg.gov.in/en/public-utility-category/colleges/",
+      "supports": "Government college directory entries in Durg district."
+    },
+    {
+      "name": "Government Chandulal Chandrakar Arts and Science College Patan course list",
+      "url": "https://govtcccollegepatan.in/college.aspx?PageName=Courses+Offered&pageid=120",
+      "supports": "BA, BSc, BCom and BCA course examples."
+    },
+    {
+      "name": "Christ College Jagdalpur undergraduate programmes",
+      "url": "https://www.christjdp.in/ug-programme",
+      "supports": "BBA, BCA, BCom and BSc course examples."
+    },
+    {
+      "name": "Maharishi University of Management and Technology regular courses",
+      "url": "https://mumt.org/course/regular-course",
+      "supports": "BBA, BCA, BCom, BA, diploma and design-related programme examples."
+    },
+    {
+      "name": "Columbia Institute of Pharmacy course and eligibility page",
+      "url": "https://columbiaiop.ac.in/admission_courses.html",
+      "supports": "B.Pharm and D.Pharm durations and affiliation/approval information."
+    },
+    {
+      "name": "CSVTU distinguished alumni",
+      "url": "https://csvtu.ac.in/ew/alumni/",
+      "supports": "Selected engineering alumni career examples."
+    },
+    {
+      "name": "Dr Archana Iyer profile",
+      "url": "https://www.hercircle.in/en/engage/get-inspired/achievers/archana-iyer-the-doctor-who-opened-the-eyes-of-a-town-in-chhattisgarh-7039.html",
+      "supports": "Healthcare work in Sukma, Chhattisgarh."
+    }
+  ],
+  "colleges": [
+    {
+      "college_id": "CGC001",
+      "college_name": "National Institute of Technology Raipur",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Government / Institute of National Importance",
+      "institution_category": "Engineering, Architecture, Science",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Software developer",
+            "engineer",
+            "analyst",
+            "research assistant"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and a Software Development Engineer role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Arch / Architecture",
+          "typical_duration": "5 years including practical training, subject to current rules",
+          "career_opportunities": [
+            "Architectural assistant",
+            "design studio roles",
+            "urban-planning support"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific local alumnus example not verified; check Council of Architecture registration requirements.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC002",
+      "college_name": "Indian Institute of Technology Bhilai",
+      "location_in_chhattisgarh": "Bhilai / Raipur region",
+      "management_type": "Government / Institute of National Importance",
+      "institution_category": "Engineering, Technology, Data Science",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / B.Tech (Honours)",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Software engineer",
+            "AI/data roles",
+            "systems engineer",
+            "research assistant"
+          ],
+          "real_life_example": {
+            "summary": "Example: IIT Bhilai and NIT Raipur graduates work across technology sectors; no named graduate-course link added without verified profile.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineer",
+            "R&D",
+            "technical lead pathway"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific local alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC003",
+      "college_name": "Bhilai Institute of Technology, Durg",
+      "location_in_chhattisgarh": "Durg",
+      "management_type": "Private",
+      "institution_category": "Engineering, Management",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Software developer",
+            "core engineer",
+            "QA",
+            "technical support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and a Software Development Engineer role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "MBA",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Business analyst",
+            "operations",
+            "sales",
+            "HR",
+            "management trainee"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified for this institution.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC004",
+      "college_name": "Rungta College of Engineering and Technology",
+      "location_in_chhattisgarh": "Bhilai",
+      "management_type": "Private",
+      "institution_category": "Engineering, Computer Science",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE CSE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Software developer",
+            "web developer",
+            "QA",
+            "cloud/DevOps",
+            "cybersecurity"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and a Software Development Engineer role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC005",
+      "college_name": "Shri Shankaracharya Technical Campus",
+      "location_in_chhattisgarh": "Bhilai",
+      "management_type": "Private",
+      "institution_category": "Engineering, Management",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Software developer",
+            "core engineer",
+            "QA",
+            "technical support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and a Software Development Engineer role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "MBA",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Business analyst",
+            "operations",
+            "sales",
+            "HR",
+            "management trainee"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified for this institution.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC006",
+      "college_name": "Raipur Institute of Technology",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Private",
+      "institution_category": "Engineering, Management",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Software developer",
+            "core engineer",
+            "QA",
+            "technical support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and a Software Development Engineer role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "MBA",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Business analyst",
+            "operations",
+            "sales",
+            "HR",
+            "management trainee"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified for this institution.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC007",
+      "college_name": "Chhattisgarh Engineering College",
+      "location_in_chhattisgarh": "Durg",
+      "management_type": "Private",
+      "institution_category": "Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Civil/mechanical/electrical/electronics engineer",
+            "QA",
+            "operations"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ujjawal Sharma — CSVTU alumni profile describes an engineering graduate who joined Qualcomm; branch was Electronics & Telecommunication, not necessarily this college.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineering",
+            "R&D",
+            "teaching after required qualifications"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC008",
+      "college_name": "Government Engineering College, Jagdalpur",
+      "location_in_chhattisgarh": "Jagdalpur",
+      "management_type": "Government",
+      "institution_category": "Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Civil/mechanical/electrical/electronics engineer",
+            "QA",
+            "operations"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ujjawal Sharma — CSVTU alumni profile describes an engineering graduate who joined Qualcomm; branch was Electronics & Telecommunication, not necessarily this college.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineering",
+            "R&D",
+            "teaching after required qualifications"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC009",
+      "college_name": "Government Engineering College, Raipur",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Government",
+      "institution_category": "Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Civil/mechanical/electrical/electronics engineer",
+            "QA",
+            "operations"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ujjawal Sharma — CSVTU alumni profile describes an engineering graduate who joined Qualcomm; branch was Electronics & Telecommunication, not necessarily this college.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineering",
+            "R&D",
+            "teaching after required qualifications"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC010",
+      "college_name": "Kirodimal Institute of Technology",
+      "location_in_chhattisgarh": "Raigarh",
+      "management_type": "Government",
+      "institution_category": "Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Civil/mechanical/electrical/electronics engineer",
+            "QA",
+            "operations"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ujjawal Sharma — CSVTU alumni profile describes an engineering graduate who joined Qualcomm; branch was Electronics & Telecommunication, not necessarily this college.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineering",
+            "R&D",
+            "teaching after required qualifications"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC011",
+      "college_name": "J.K. Institute of Engineering",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Private",
+      "institution_category": "Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Civil/mechanical/electrical/electronics engineer",
+            "QA",
+            "operations"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ujjawal Sharma — CSVTU alumni profile describes an engineering graduate who joined Qualcomm; branch was Electronics & Telecommunication, not necessarily this college.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineering",
+            "R&D",
+            "teaching after required qualifications"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC012",
+      "college_name": "Columbia Institute of Engineering and Technology",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Private",
+      "institution_category": "Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Civil/mechanical/electrical/electronics engineer",
+            "QA",
+            "operations"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ujjawal Sharma — CSVTU alumni profile describes an engineering graduate who joined Qualcomm; branch was Electronics & Telecommunication, not necessarily this college.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineering",
+            "R&D",
+            "teaching after required qualifications"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC013",
+      "college_name": "Lakhmi Chand Institute of Technology",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Private",
+      "institution_category": "Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Civil/mechanical/electrical/electronics engineer",
+            "QA",
+            "operations"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ujjawal Sharma — CSVTU alumni profile describes an engineering graduate who joined Qualcomm; branch was Electronics & Telecommunication, not necessarily this college.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineering",
+            "R&D",
+            "teaching after required qualifications"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC014",
+      "college_name": "Krishna Engineering College",
+      "location_in_chhattisgarh": "Bhilai",
+      "management_type": "Private",
+      "institution_category": "Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Civil/mechanical/electrical/electronics engineer",
+            "QA",
+            "operations"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ujjawal Sharma — CSVTU alumni profile describes an engineering graduate who joined Qualcomm; branch was Electronics & Telecommunication, not necessarily this college.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "M.Tech",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Specialist engineering",
+            "R&D",
+            "teaching after required qualifications"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC015",
+      "college_name": "Chouksey Engineering College",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Private",
+      "institution_category": "Engineering, Management",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Software developer",
+            "core engineer",
+            "QA",
+            "technical support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and a Software Development Engineer role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "MBA",
+          "typical_duration": "Usually 2 years",
+          "career_opportunities": [
+            "Business analyst",
+            "operations",
+            "sales",
+            "HR",
+            "management trainee"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified for this institution.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC016",
+      "college_name": "Government Polytechnic, Durg",
+      "location_in_chhattisgarh": "Durg",
+      "management_type": "Government",
+      "institution_category": "Diploma Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "Diploma in Engineering / Polytechnic",
+          "typical_duration": "Usually 3 years after Class 10",
+          "career_opportunities": [
+            "Technician",
+            "junior engineer pathway",
+            "CAD drafter",
+            "maintenance roles",
+            "lateral entry to B.Tech where eligible"
+          ],
+          "real_life_example": {
+            "summary": "Example: local alumni story specific to this diploma and institution not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC017",
+      "college_name": "Government Polytechnic, Bilaspur",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Government",
+      "institution_category": "Diploma Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "Diploma in Engineering / Polytechnic",
+          "typical_duration": "Usually 3 years after Class 10",
+          "career_opportunities": [
+            "Technician",
+            "junior engineer pathway",
+            "CAD drafter",
+            "maintenance roles",
+            "lateral entry to B.Tech where eligible"
+          ],
+          "real_life_example": {
+            "summary": "Example: local alumni story specific to this diploma and institution not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC018",
+      "college_name": "Government Polytechnic, Raipur",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Government",
+      "institution_category": "Diploma Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "Diploma in Engineering / Polytechnic",
+          "typical_duration": "Usually 3 years after Class 10",
+          "career_opportunities": [
+            "Technician",
+            "junior engineer pathway",
+            "CAD drafter",
+            "maintenance roles",
+            "lateral entry to B.Tech where eligible"
+          ],
+          "real_life_example": {
+            "summary": "Example: local alumni story specific to this diploma and institution not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC019",
+      "college_name": "Government Polytechnic, Korba",
+      "location_in_chhattisgarh": "Korba",
+      "management_type": "Government",
+      "institution_category": "Diploma Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "Diploma in Engineering / Polytechnic",
+          "typical_duration": "Usually 3 years after Class 10",
+          "career_opportunities": [
+            "Technician",
+            "junior engineer pathway",
+            "CAD drafter",
+            "maintenance roles",
+            "lateral entry to B.Tech where eligible"
+          ],
+          "real_life_example": {
+            "summary": "Example: local alumni story specific to this diploma and institution not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC020",
+      "college_name": "Government Polytechnic, Ambikapur",
+      "location_in_chhattisgarh": "Ambikapur",
+      "management_type": "Government",
+      "institution_category": "Diploma Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "Diploma in Engineering / Polytechnic",
+          "typical_duration": "Usually 3 years after Class 10",
+          "career_opportunities": [
+            "Technician",
+            "junior engineer pathway",
+            "CAD drafter",
+            "maintenance roles",
+            "lateral entry to B.Tech where eligible"
+          ],
+          "real_life_example": {
+            "summary": "Example: local alumni story specific to this diploma and institution not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC021",
+      "college_name": "Government Polytechnic, Mahasamund",
+      "location_in_chhattisgarh": "Mahasamund",
+      "management_type": "Government",
+      "institution_category": "Diploma Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "Diploma in Engineering / Polytechnic",
+          "typical_duration": "Usually 3 years after Class 10",
+          "career_opportunities": [
+            "Technician",
+            "junior engineer pathway",
+            "CAD drafter",
+            "maintenance roles",
+            "lateral entry to B.Tech where eligible"
+          ],
+          "real_life_example": {
+            "summary": "Example: local alumni story specific to this diploma and institution not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC022",
+      "college_name": "Government Polytechnic, Surajpur",
+      "location_in_chhattisgarh": "Surajpur",
+      "management_type": "Government",
+      "institution_category": "Diploma Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "Diploma in Engineering / Polytechnic",
+          "typical_duration": "Usually 3 years after Class 10",
+          "career_opportunities": [
+            "Technician",
+            "junior engineer pathway",
+            "CAD drafter",
+            "maintenance roles",
+            "lateral entry to B.Tech where eligible"
+          ],
+          "real_life_example": {
+            "summary": "Example: local alumni story specific to this diploma and institution not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC023",
+      "college_name": "Government Polytechnic, Kondagaon",
+      "location_in_chhattisgarh": "Kondagaon",
+      "management_type": "Government",
+      "institution_category": "Diploma Engineering",
+      "courses_for_comparison": [
+        {
+          "course_name": "Diploma in Engineering / Polytechnic",
+          "typical_duration": "Usually 3 years after Class 10",
+          "career_opportunities": [
+            "Technician",
+            "junior engineer pathway",
+            "CAD drafter",
+            "maintenance roles",
+            "lateral entry to B.Tech where eligible"
+          ],
+          "real_life_example": {
+            "summary": "Example: local alumni story specific to this diploma and institution not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC024",
+      "college_name": "Columbia Institute of Pharmacy",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Private",
+      "institution_category": "Pharmacy",
+      "courses_for_comparison": [
+        {
+          "course_name": "D.Pharm",
+          "typical_duration": "2 academic years plus practical training, subject to current regulations",
+          "career_opportunities": [
+            "Pharmacy pathway subject to registration rules",
+            "pharmacy operations",
+            "hospital/community pharmacy support"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Pharm",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Pharmacist pathway subject to registration",
+            "quality control",
+            "production",
+            "regulatory affairs",
+            "clinical research"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC025",
+      "college_name": "Shri Rawatpura Sarkar Institute of Pharmacy",
+      "location_in_chhattisgarh": "Kumhari",
+      "management_type": "Private",
+      "institution_category": "Pharmacy",
+      "courses_for_comparison": [
+        {
+          "course_name": "D.Pharm",
+          "typical_duration": "2 academic years plus practical training, subject to current regulations",
+          "career_opportunities": [
+            "Pharmacy pathway subject to registration rules",
+            "pharmacy operations",
+            "hospital/community pharmacy support"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Pharm",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Pharmacist pathway subject to registration",
+            "quality control",
+            "production",
+            "regulatory affairs",
+            "clinical research"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC026",
+      "college_name": "Apollo College of Pharmacy",
+      "location_in_chhattisgarh": "Durg",
+      "management_type": "Private",
+      "institution_category": "Pharmacy",
+      "courses_for_comparison": [
+        {
+          "course_name": "D.Pharm",
+          "typical_duration": "2 academic years plus practical training, subject to current regulations",
+          "career_opportunities": [
+            "Pharmacy pathway subject to registration rules",
+            "pharmacy operations",
+            "hospital/community pharmacy support"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Pharm",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Pharmacist pathway subject to registration",
+            "quality control",
+            "production",
+            "regulatory affairs",
+            "clinical research"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC027",
+      "college_name": "J.K. Institute of Pharmacy",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Private",
+      "institution_category": "Pharmacy",
+      "courses_for_comparison": [
+        {
+          "course_name": "D.Pharm",
+          "typical_duration": "2 academic years plus practical training, subject to current regulations",
+          "career_opportunities": [
+            "Pharmacy pathway subject to registration rules",
+            "pharmacy operations",
+            "hospital/community pharmacy support"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Pharm",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Pharmacist pathway subject to registration",
+            "quality control",
+            "production",
+            "regulatory affairs",
+            "clinical research"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC028",
+      "college_name": "Rungta Institute of Pharmaceutical Sciences and Research",
+      "location_in_chhattisgarh": "Bhilai",
+      "management_type": "Private",
+      "institution_category": "Pharmacy",
+      "courses_for_comparison": [
+        {
+          "course_name": "D.Pharm",
+          "typical_duration": "2 academic years plus practical training, subject to current regulations",
+          "career_opportunities": [
+            "Pharmacy pathway subject to registration rules",
+            "pharmacy operations",
+            "hospital/community pharmacy support"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Pharm",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Pharmacist pathway subject to registration",
+            "quality control",
+            "production",
+            "regulatory affairs",
+            "clinical research"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC029",
+      "college_name": "LCIT College of Pharmacy",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Private",
+      "institution_category": "Pharmacy",
+      "courses_for_comparison": [
+        {
+          "course_name": "D.Pharm",
+          "typical_duration": "2 academic years plus practical training, subject to current regulations",
+          "career_opportunities": [
+            "Pharmacy pathway subject to registration rules",
+            "pharmacy operations",
+            "hospital/community pharmacy support"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Pharm",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Pharmacist pathway subject to registration",
+            "quality control",
+            "production",
+            "regulatory affairs",
+            "clinical research"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC030",
+      "college_name": "S.R. Pharmacy College",
+      "location_in_chhattisgarh": "Durg",
+      "management_type": "Private",
+      "institution_category": "Pharmacy",
+      "courses_for_comparison": [
+        {
+          "course_name": "D.Pharm",
+          "typical_duration": "2 academic years plus practical training, subject to current regulations",
+          "career_opportunities": [
+            "Pharmacy pathway subject to registration rules",
+            "pharmacy operations",
+            "hospital/community pharmacy support"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Pharm",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Pharmacist pathway subject to registration",
+            "quality control",
+            "production",
+            "regulatory affairs",
+            "clinical research"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified. Confirm PCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC031",
+      "college_name": "Government V.Y.T. PG Autonomous College",
+      "location_in_chhattisgarh": "Durg",
+      "management_type": "Government",
+      "institution_category": "Arts, Science, Commerce, Computer Applications",
+      "courses_for_comparison": [
+        {
+          "course_name": "BA / B.Sc / B.Com / BCA",
+          "typical_duration": "Typically 3 years; current honours structures vary",
+          "career_opportunities": [
+            "Humanities",
+            "science",
+            "accounting",
+            "software and IT support pathways"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC032",
+      "college_name": "Government Dr. Waman Wasudev Patankar Girls PG College",
+      "location_in_chhattisgarh": "Durg",
+      "management_type": "Government",
+      "institution_category": "Arts, Science, Commerce",
+      "courses_for_comparison": [
+        {
+          "course_name": "BA",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Content",
+            "social sector",
+            "civil-service preparation",
+            "research support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Namrata Jain is listed as an IAS officer on CSVTU's alumni page; degree not specified there.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Sc",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Lab",
+            "research support",
+            "science communication",
+            "postgraduate study"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Com",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Accounts",
+            "audit support",
+            "banking operations"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC033",
+      "college_name": "Government D.B. Girls PG College",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Government",
+      "institution_category": "Arts, Science, Commerce",
+      "courses_for_comparison": [
+        {
+          "course_name": "BA",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Content",
+            "social sector",
+            "civil-service preparation",
+            "research support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Namrata Jain is listed as an IAS officer on CSVTU's alumni page; degree not specified there.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Sc",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Lab",
+            "research support",
+            "science communication",
+            "postgraduate study"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Com",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Accounts",
+            "audit support",
+            "banking operations"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC034",
+      "college_name": "Government Nagarjuna PG College",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Government",
+      "institution_category": "Arts, Science, Commerce",
+      "courses_for_comparison": [
+        {
+          "course_name": "BA",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Content",
+            "social sector",
+            "civil-service preparation",
+            "research support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Namrata Jain is listed as an IAS officer on CSVTU's alumni page; degree not specified there.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Sc",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Lab",
+            "research support",
+            "science communication",
+            "postgraduate study"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Com",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Accounts",
+            "audit support",
+            "banking operations"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC035",
+      "college_name": "Government E. Raghavendra Rao PG Science College",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Government",
+      "institution_category": "Science, Computer Science",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Sc Computer Science",
+          "typical_duration": "Usually 3 years; some institutions offer 4-year honours options",
+          "career_opportunities": [
+            "Junior programmer",
+            "data support",
+            "QA",
+            "IT support"
+          ],
+          "real_life_example": {
+            "summary": "Technology career example available, but no verified graduate-to-role profile for this specific course/institution.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC036",
+      "college_name": "Government Bilasa Girls PG College",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Government",
+      "institution_category": "Arts, Science, Commerce",
+      "courses_for_comparison": [
+        {
+          "course_name": "BA",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Content",
+            "social sector",
+            "civil-service preparation",
+            "research support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Namrata Jain is listed as an IAS officer on CSVTU's alumni page; degree not specified there.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Sc",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Lab",
+            "research support",
+            "science communication",
+            "postgraduate study"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Com",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Accounts",
+            "audit support",
+            "banking operations"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC037",
+      "college_name": "Government Chandulal Chandrakar Arts and Science College, Patan",
+      "location_in_chhattisgarh": "Patan, Durg district",
+      "management_type": "Government",
+      "institution_category": "BA, BSc, BCom, BCA, postgraduate courses",
+      "courses_for_comparison": [
+        {
+          "course_name": "BA / B.Sc / B.Com",
+          "typical_duration": "Usually 3 years; honours structures vary",
+          "career_opportunities": [
+            "Content",
+            "lab/research support",
+            "accounts",
+            "banking operations"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific graduate success profile verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BCA",
+          "typical_duration": "Usually 3 years; some institutions offer 4-year structures",
+          "career_opportunities": [
+            "Junior developer",
+            "web developer",
+            "QA",
+            "IT support"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific BCA alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC038",
+      "college_name": "Dr. Khoobchand Baghel Government PG College",
+      "location_in_chhattisgarh": "Bhilai-3",
+      "management_type": "Government",
+      "institution_category": "Arts, Science, Commerce",
+      "courses_for_comparison": [
+        {
+          "course_name": "BA",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Content",
+            "social sector",
+            "civil-service preparation",
+            "research support"
+          ],
+          "real_life_example": {
+            "summary": "Example: Namrata Jain is listed as an IAS officer on CSVTU's alumni page; degree not specified there.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Sc",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Lab",
+            "research support",
+            "science communication",
+            "postgraduate study"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Com",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Accounts",
+            "audit support",
+            "banking operations"
+          ],
+          "real_life_example": {
+            "summary": "Course-specific alumnus example not verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC039",
+      "college_name": "Christ College",
+      "location_in_chhattisgarh": "Jagdalpur",
+      "management_type": "Private",
+      "institution_category": "BBA, BCA, BCom, BSc, BEd",
+      "courses_for_comparison": [
+        {
+          "course_name": "BBA",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Marketing",
+            "HR",
+            "sales",
+            "operations",
+            "management trainee"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific BBA alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BCA",
+          "typical_duration": "Usually 3 years; some institutions offer 4-year structures",
+          "career_opportunities": [
+            "Junior developer",
+            "web developer",
+            "QA",
+            "IT support"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific BCA alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Com",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Accounts",
+            "banking operations",
+            "audit support"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific B.Com alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Ed",
+          "typical_duration": "Usually 2 years after eligible bachelor's degree, subject to current regulations",
+          "career_opportunities": [
+            "Teaching after required eligibility tests and recruitment requirements"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific B.Ed alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC040",
+      "college_name": "Maharishi University of Management and Technology",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Private University",
+      "institution_category": "BBA, BCA, BCom, BA, design and diploma options",
+      "courses_for_comparison": [
+        {
+          "course_name": "BBA",
+          "typical_duration": "Usually 3 years; 4-year honours options may apply",
+          "career_opportunities": [
+            "Marketing",
+            "HR",
+            "sales",
+            "operations",
+            "management trainee"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific BBA alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BCA",
+          "typical_duration": "Usually 3 years; some institutions offer 4-year structures",
+          "career_opportunities": [
+            "Junior developer",
+            "web developer",
+            "QA",
+            "IT support"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific BCA alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Des / Design",
+          "typical_duration": "Usually 4 years for B.Des",
+          "career_opportunities": [
+            "UI/UX",
+            "graphic",
+            "communication",
+            "product design"
+          ],
+          "real_life_example": {
+            "summary": "No verified local graduate-to-role story included.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC041",
+      "college_name": "Kalinga University",
+      "location_in_chhattisgarh": "Naya Raipur",
+      "management_type": "Private University",
+      "institution_category": "Technology, Management, Law, Design",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "Usually 4 years",
+          "career_opportunities": [
+            "Software",
+            "engineering",
+            "QA",
+            "cloud and data roles"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and SDE role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BBA",
+          "typical_duration": "Usually 3 years; honours options vary",
+          "career_opportunities": ["Marketing", "HR", "operations", "sales"],
+          "real_life_example": {
+            "summary": "No course-specific alumnus example verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Des / Design",
+          "typical_duration": "Usually 4 years for B.Des",
+          "career_opportunities": [
+            "UI/UX",
+            "graphic",
+            "product",
+            "communication design"
+          ],
+          "real_life_example": {
+            "summary": "No verified local graduate-to-role story included.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "Law degree",
+          "typical_duration": "3-year LLB after graduation; integrated law usually 5 years",
+          "career_opportunities": [
+            "Legal associate",
+            "advocate after required enrollment",
+            "compliance"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC042",
+      "college_name": "Amity University Chhattisgarh",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Private University",
+      "institution_category": "Technology, Management, Computer Applications",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "Usually 4 years",
+          "career_opportunities": [
+            "Software",
+            "engineering",
+            "QA",
+            "cloud and data roles"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and SDE role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BBA",
+          "typical_duration": "Usually 3 years; honours options vary",
+          "career_opportunities": ["Marketing", "HR", "operations", "sales"],
+          "real_life_example": {
+            "summary": "No course-specific alumnus example verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BCA",
+          "typical_duration": "Usually 3 years; some institutions offer 4-year structures",
+          "career_opportunities": [
+            "Junior developer",
+            "web developer",
+            "QA",
+            "IT support"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific BCA alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC043",
+      "college_name": "ITM University",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Private University",
+      "institution_category": "Technology, Management, Design and other disciplines",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "Usually 4 years",
+          "career_opportunities": [
+            "Software",
+            "engineering",
+            "QA",
+            "data and cloud roles"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and SDE role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BBA / MBA",
+          "typical_duration": "BBA usually 3 years; MBA usually 2 years",
+          "career_opportunities": [
+            "Marketing",
+            "HR",
+            "operations",
+            "business analysis"
+          ],
+          "real_life_example": {
+            "summary": "No course-specific alumnus example verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "Design programmes",
+          "typical_duration": "B.Des commonly 4 years; verify exact degree",
+          "career_opportunities": ["UI/UX", "graphic", "product design"],
+          "real_life_example": {
+            "summary": "No verified local graduate-to-role story included.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC044",
+      "college_name": "MATS University",
+      "location_in_chhattisgarh": "Aarang / Raipur",
+      "management_type": "Private University",
+      "institution_category": "Technology, Management, Computer Applications, Law",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Tech / BE",
+          "typical_duration": "Usually 4 years",
+          "career_opportunities": [
+            "Software",
+            "engineering",
+            "QA",
+            "data and cloud roles"
+          ],
+          "real_life_example": {
+            "summary": "Example: Ashika Jain — CSVTU alumni profile reports BE Computer Science and SDE role at Zopsmart.",
+            "source_url": "https://csvtu.ac.in/ew/alumni/",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BCA",
+          "typical_duration": "Usually 3 years; some institutions offer 4-year structures",
+          "career_opportunities": [
+            "Junior developer",
+            "web developer",
+            "QA",
+            "IT support"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific BCA alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BBA",
+          "typical_duration": "Usually 3 years; honours options vary",
+          "career_opportunities": ["Marketing", "HR", "sales", "operations"],
+          "real_life_example": {
+            "summary": "No course-specific alumnus example verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "LLB / integrated law",
+          "typical_duration": "LLB 3 years after graduation; integrated programmes usually 5 years",
+          "career_opportunities": [
+            "Legal associate",
+            "compliance",
+            "advocate after required enrollment"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC045",
+      "college_name": "Shri Davara University",
+      "location_in_chhattisgarh": "Raipur region",
+      "management_type": "Private University",
+      "institution_category": "BBA, BCA, BCom, BA, Design, Pharmacy, Law",
+      "courses_for_comparison": [
+        {
+          "course_name": "BBA / B.Com",
+          "typical_duration": "Usually 3 years; honours options vary",
+          "career_opportunities": [
+            "Marketing",
+            "HR",
+            "accounts",
+            "banking operations"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "BCA",
+          "typical_duration": "Usually 3 years; some institutions offer 4-year structures",
+          "career_opportunities": [
+            "Junior developer",
+            "web developer",
+            "QA",
+            "IT support"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific BCA alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "Design / Fine Arts",
+          "typical_duration": "B.Des commonly 4 years; BFA often 3–4 years",
+          "career_opportunities": [
+            "UI/UX",
+            "graphic design",
+            "visual arts",
+            "illustration"
+          ],
+          "real_life_example": {
+            "summary": "No verified local graduate-to-role story included.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        },
+        {
+          "course_name": "B.Pharm",
+          "typical_duration": "4 years",
+          "career_opportunities": [
+            "Quality control",
+            "production",
+            "regulatory affairs",
+            "pharmacist pathway subject to registration"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific alumnus story verified.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": "https://csvtu.ac.in/"
+    },
+    {
+      "college_id": "CGC046",
+      "college_name": "Hidayatullah National Law University",
+      "location_in_chhattisgarh": "Nava Raipur",
+      "management_type": "Government University",
+      "institution_category": "Law",
+      "courses_for_comparison": [
+        {
+          "course_name": "BA LL.B / integrated law",
+          "typical_duration": "Usually 5 years",
+          "career_opportunities": [
+            "Legal associate",
+            "litigation pathway after enrollment",
+            "compliance",
+            "legal research"
+          ],
+          "real_life_example": {
+            "summary": "No institution-specific alumnus story verified; verify BCI approval.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC047",
+      "college_name": "Pt. Jawaharlal Nehru Memorial Medical College",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Government",
+      "institution_category": "Medicine and health sciences",
+      "courses_for_comparison": [
+        {
+          "course_name": "MBBS",
+          "typical_duration": "Typically 4.5 years plus 1 year compulsory rotating internship",
+          "career_opportunities": [
+            "Medical officer/doctor after applicable registration; postgraduate specialization after eligible entrance"
+          ],
+          "real_life_example": {
+            "summary": "Example: Dr Archana Iyer helped establish eye-care services in Sukma, Chhattisgarh; her exact college is not claimed here.",
+            "source_url": "https://www.hercircle.in/en/engage/get-inspired/achievers/archana-iyer-the-doctor-who-opened-the-eyes-of-a-town-in-chhattisgarh-7039.html",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC048",
+      "college_name": "Chhattisgarh Institute of Medical Sciences",
+      "location_in_chhattisgarh": "Bilaspur",
+      "management_type": "Government",
+      "institution_category": "Medicine and health sciences",
+      "courses_for_comparison": [
+        {
+          "course_name": "MBBS",
+          "typical_duration": "Typically 4.5 years plus 1 year compulsory rotating internship",
+          "career_opportunities": [
+            "Medical officer/doctor after applicable registration; postgraduate specialization after eligible entrance"
+          ],
+          "real_life_example": {
+            "summary": "Example: Dr Archana Iyer helped establish eye-care services in Sukma, Chhattisgarh; her exact college is not claimed here.",
+            "source_url": "https://www.hercircle.in/en/engage/get-inspired/achievers/archana-iyer-the-doctor-who-opened-the-eyes-of-a-town-in-chhattisgarh-7039.html",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC049",
+      "college_name": "Government Medical College, Rajnandgaon",
+      "location_in_chhattisgarh": "Rajnandgaon",
+      "management_type": "Government",
+      "institution_category": "Medicine and health sciences",
+      "courses_for_comparison": [
+        {
+          "course_name": "MBBS",
+          "typical_duration": "Typically 4.5 years plus 1 year compulsory rotating internship",
+          "career_opportunities": [
+            "Medical officer/doctor after applicable registration; postgraduate specialization after eligible entrance"
+          ],
+          "real_life_example": {
+            "summary": "Example: Dr Archana Iyer helped establish eye-care services in Sukma, Chhattisgarh; her exact college is not claimed here.",
+            "source_url": "https://www.hercircle.in/en/engage/get-inspired/achievers/archana-iyer-the-doctor-who-opened-the-eyes-of-a-town-in-chhattisgarh-7039.html",
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    },
+    {
+      "college_id": "CGC050",
+      "college_name": "Indira Gandhi Krishi Vishwavidyalaya",
+      "location_in_chhattisgarh": "Raipur",
+      "management_type": "Government University",
+      "institution_category": "Agriculture and allied sciences",
+      "courses_for_comparison": [
+        {
+          "course_name": "B.Sc Agriculture",
+          "typical_duration": "Usually 4 years",
+          "career_opportunities": [
+            "Agriculture officer pathway",
+            "agri-tech",
+            "seed/fertilizer industry",
+            "farm advisory",
+            "research assistant"
+          ],
+          "real_life_example": {
+            "summary": "No verified institution-specific alumnus-to-career story included.",
+            "source_url": null,
+            "verification_note": "Examples are career illustrations, not proof that this specific college's graduates achieved the outcome. Where course-specific alumni evidence was not verified, that limitation is stated."
+          }
+        }
+      ],
+      "verification_status": "starter list; verify current course offerings, affiliation and approvals",
+      "official_reference": null
+    }
+  ]
+}

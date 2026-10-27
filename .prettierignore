@@ -2,3 +2,4 @@ node_modules/
 .next/
 pnpm-lock.yaml
 apps/web/next-env.d.ts
+FormsDownloads.html

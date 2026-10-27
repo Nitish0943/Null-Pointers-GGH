@@ -14,7 +14,7 @@ The personalized cognitive assessment runs in the authenticated
 `generateCognitiveAssessment` Firebase Function. Configure its server-only
 Gemini secret with:
 
-```
+````
 
 The Spark-compatible seeded assessment path does not need Gemini. Its source
 catalog is [assessment-question-bank.json](../firebase/functions/src/data/assessment-question-bank.json).
@@ -28,4 +28,4 @@ npx firebase-tools deploy --only firestore:rules
 ```powershell
 npx firebase-tools functions:secrets:set GEMINI_API_KEY
 npx firebase-tools deploy --only functions
-```
+````
